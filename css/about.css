@@ -1,0 +1,56 @@
+#container {
+    background-color: #F9F5EC;
+    max-width: 1920px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+/* Header */
+#bg1{
+    background-image:url("/images/abtbg.png") ;
+    color: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#bgcon{
+    padding: 10.3% 16%;
+}
+
+#bgcon h1 {
+    font-size: 4.75vw;
+    font-weight: bold;
+}
+
+/* AboutUs */
+.content{
+    display: flex;
+    margin: 5% 12%;
+}
+
+#abtcon {
+    margin-top: 2.5%;
+    text-align: justify;
+    position: relative;
+}
+
+#abtcon h1 {
+    color: #C09863;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+#abtcon p {
+    color: #6B6B6B;
+    font-weight: 550;
+    font-size: 1vw;
+    margin-bottom: 4.5%;
+}
+
+#abtimg {
+    width: 80%;
+}
+
+#abtimg img {
+    width: 100%;
+    margin-left: 20%;
+}
