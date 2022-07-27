@@ -10,6 +10,10 @@ button {
     border: none;
     color: white;
     background-color: #C09863;
+    background-image: linear-gradient(to right, transparent 50%, white 50%);
+    background-size: 210%;
+    background-position: 0%;
+    transition: ease-out 0.5s;
     align-items: center;
     text-align: center;
 }
@@ -31,6 +35,14 @@ button {
     color: #C09863;
 }
 
+.bookbtn {
+    width: 8%;
+    padding: 0.8% 0 0.55% 0;
+    border-radius: 10px;
+    font-size: 0.8vw;
+    font-weight: bold;
+}
+
 /* Contents */
 #bg1 {
     background-image: url("/images/bg1.png");
@@ -41,7 +53,7 @@ button {
     /* padding: 10.3% 7.5%; */
 }
 
-#bgcon{
+#bgcon {
     padding: 10.3% 7.5%;
 }
 
@@ -53,6 +65,20 @@ button {
 #bgcon h1 {
     font-size: 4.75vw;
     font-weight: bold;
+}
+
+.hbtn {
+    width: 12%;
+    padding: 0.9% 0 0.75% 0;
+    border-radius: 10px;
+    font-size: 0.9vw;
+    font-weight: bold;
+    margin: 0 3% 0 0;
+}
+
+.hbtn:hover {
+    color: #C09863;
+    background-position: 100%;
 }
 
 /* About Us */
@@ -81,6 +107,7 @@ button {
     color: #C09863;
     font-weight: bold;
     margin-bottom: 5%;
+    font-size: 2.2vw;
 }
 
 #abtcon p {
@@ -89,13 +116,81 @@ button {
     margin-bottom: 4.5%;
 }
 
-.readbtn {
+.rbtn1 {
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     right: 0%;
+    width: 18%;
+    padding: 1.3% 0 1% 0;
+    border-radius: 10px;
+    font-size: 0.8vw;
+    font-weight: bold;
+    margin: 0 3% 0 0;
+}
+
+.rbtn1:hover {
+    color: #C09863;
+    background-position: 100%;
+    border: solid #C09863 1.5px;
 }
 
 /* Reservation */
+.hreserve {
+    background-image: url("/images/BG\ 2.png");
+    padding: 5% 7.5%;
+
+}
+
+.hreserve h1 {
+    color: #C09863;
+    font-size: 2.2vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hreservecon {
+    display: flex;
+}
+
+/* Reserve Form */
+form {
+    background-color: white;
+    border: #C09863 solid 3px;
+    border-radius: 15px;
+    padding: 3% 2%;
+}
+.hreservecon{
+    margin: 3% 7.5%;
+}
+.hreservecon h1 {
+    font-size: 1.7vw;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5%
+}
+input{
+    border-radius: 7px;
+    border: #C09863 solid 2px;
+    padding: 1% 2%;
+    font-family: 'Epilogue', sans-serif;
+    width: 46%;
+    font-size: 1vw;
+}
+.bookform{
+    margin: 1.5%;
+}
+/* Reserve Content */
+.reserveimg {
+    margin-left: 5%;
+    width: 40%;
+    border-radius: 15px;
+}
+
+.reserveimg img {
+    width: 100%;
+}
+
 /* Our Menu */
 .ourmenu {
     margin: 5% 7.5%;
@@ -104,6 +199,7 @@ button {
 .ourmenu h1 {
     color: #C09863;
     font-weight: bold;
+    font-size: 2.2vw;
 }
 
 .imgcontainer {
@@ -177,6 +273,7 @@ button {
     color: white;
     font-weight: bold;
     margin-bottom: 1.5%;
+    font-size: 2.2vw;
 }
 
 .stxt p {
@@ -207,13 +304,18 @@ button {
     font-size: 1.25vw;
 }
 
-.btn1 {
+.sbtn {
     width: 10%;
-    padding: 0.6% 0 0.5% 0;
+    padding: 0.7% 0 0.5% 0;
     border-radius: 10px;
     font-size: 0.85vw;
     font-weight: bold;
     margin: 3% 0;
+}
+
+.sbtn:hover {
+    background-position: 100%;
+    color: #C09863;
 }
 
 /* Our Chef */
@@ -231,6 +333,7 @@ button {
     color: #C09863;
     font-weight: bold;
     margin-bottom: 1.5%;
+    font-size: 2.2vw;
 }
 
 .ctxt p {
@@ -259,7 +362,14 @@ button {
     color: black;
     font-weight: bold;
     text-align: center;
-    font-size: 1.25vw;
+    font-size: 1.4vw;
+}
+
+.cimg p {
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin: 1% 0;
+    opacity: 0.7;
 }
 
 /* Gallery */
@@ -278,6 +388,7 @@ button {
     color: white;
     font-weight: bold;
     margin-bottom: 1.5%;
+    font-size: 2.2vw;
 }
 
 .gimg {
@@ -315,34 +426,44 @@ button {
     color: #C09863;
     font-weight: bold;
     margin-bottom: 1.5%;
+    font-size: 2.2vw;
 }
 
-.bimgbox{
+.bimgbox {
     display: flex;
     justify-content: center;
     align-self: center;
-    margin: 0 2.6%;
+    margin: 2.5% 2.6% 5% 2.6%;
 }
 
-.bbox1{
+.bbox1 {
     width: 30%;
     margin: 0 1.5%;
     background-color: white;
+    border-radius: 15px;
+    box-shadow: 6px 6px 20px #aaaaaa;
 }
 
-.bimg img{
-    width: 100%;
+.bbox1:hover {
+    opacity: 0.85;
 }
-.btxt{
+
+.bimg img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.btxt {
     padding: 0 4.5%;
 }
-.btxt h2{
+
+.btxt h2 {
     font-weight: bold;
     font-size: 1.1vw;
     margin: 5% 0 1% 0;
 }
 
-.btxt p{
+.btxt p {
     font-size: 0.85vw;
 }
 
@@ -353,12 +474,45 @@ button {
     padding: 2% 5%;
 }
 
-.tyflogo{
+.tyflogo {
     width: 15%;
+    margin-right: 10%;
+}
+
+.ftitle {
+    color: white;
+    font-size: 1.7vw;
+    font-weight: bold;
+    margin-bottom: 3%;
+    padding-top: 3%;
+}
+
+.whours {
+    width: 30%;
+}
+
+.whours h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.1vw;
+    margin: 2% 0 0.5% 0;
+}
+
+.whours p {
+    color: #C09863;
+    font-size: 1.1vw;
+    margin: 0.5% 0 2% 0;
+}
+
+.whours h4 {
+    color: #EF6D58;
+    font-weight: bold;
+    font-size: 1.1vw;
 }
 
 .fcontent {
     flex-direction: column;
+    width: 30%;
 }
 
 .fcontent a {
@@ -372,30 +526,25 @@ button {
     opacity: 0.8;
 }
 
-.ftitle {
-    color: white;
-    font-size: 2vw;
-    font-weight: bold;
-}
-
 .fc {
     color: #ffffff;
 }
 
-.social-icons{
+.social-icons {
     width: 15%;
+
 }
 
 .social-icons .social-icon {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 3rem;
-    width: 3rem;
-    background-color: #EF6D58;
+    width: 22%;
+    height: 22%;
+    background-color: #C09863;
     color: #fff;
     border-radius: 100%;
-    margin-top: 1px;
+    margin-top: 1%;
     margin-right: 0.5rem;
 }
 
