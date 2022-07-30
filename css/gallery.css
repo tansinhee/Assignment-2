@@ -47,9 +47,10 @@ button {
     background-position: 100%;
 }
 
+
 /* Header */
 #bg1 {
-    background-image: url("../images/abtbg.png");
+    background-image: url("../images/Gallerybg.png");
     color: white;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -64,153 +65,47 @@ button {
     font-weight: bold;
 }
 
-/* AboutUs */
-.content {
-    display: flex;
-    margin: 5% 12%;
+/* GalleryTitle */
+.title{
+    text-align: center;  
 }
 
-#abtcon {
-    margin-top: 2.5%;
-    text-align: justify;
-    position: relative;
-    max-width: 80%;
-    margin-right: 8%;
-}
-
-#abtcon h1 {
-    color: #C09863;
-    font-weight: bold;
-    margin-bottom: 5%;
-}
-
-#abtcon p {
-    color: #6B6B6B;
-    font-weight: 550;
-    font-size: 1vw;
-    margin-bottom: 4.5%;
-}
-
-#abtimg {
-    width: 80%;
-    margin-top: 2.5%;
-}
-
-#abtimg img {
-    width: 100%;
-}
-
-/* Our Mission */
-.mission {
-    background-color: #0E1317;
-    padding: 0 7.5%;
-}
-
-.mtxt {
-    margin: 0 10%;
-    padding-top: 5%;
-    text-align: center;
-}
-
-.mtxt h1 {
-    color: #C09863;
-    font-weight: bold;
-    margin-bottom: 1.5%;
-}
-
-.mimgbox {
-    display: flex;
-    justify-content: center;
-}
-
-.mimg {
-    width: 25%;
-    margin: 2.5%;
-}
-
-.mimg img {
-    width: 100%;
-    border-radius: 15px;
-}
-
-.mimg h2 {
-    color: #C09863;
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.25vw;
-}
-
-.mimg p {
-    color: white;
-    text-align: center;
-    font-size: 1vw;
-}
-
-hr.new1 {
-    border-top: 1px solid white;
-    max-width: 90%;
-    margin: auto;
-}
-
-.vtitle{
-    color: white;
-    font-weight: bold;
-    margin-bottom: 1.5%;
-    text-align: center;
-    padding: 5% 0% 10%;
-}
-
-/* Our Chef */
-.ourchef {
-    padding: 0 7.5%;
-}
-
-.ctxt {
+.gtxt {
     margin: 0 10%;
     padding-top: 4%;
     text-align: center;
 }
 
-.ctxt h1 {
+.gtxt h1 {
     color: #C09863;
     font-weight: bold;
     margin-bottom: 1.5%;
 }
 
-.ctxt p {
+.gtxt p {
     color: black;
     font-weight: 550;
     font-size: 1vw;
 }
 
-.cimgbox {
+/* Gallery */
+.gallery{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 2%;
 }
 
-.cimg {
+.imgbox{
     width: 25%;
     margin: 2.5%;
 }
 
-.cimg img {
+.imgbox img{
     width: 100%;
     border-radius: 15px;
     box-shadow: 6px 6px 10px #aaaaaa;
-}
-
-.cimg h2 {
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.25vw;
-}
-
-.cimg p{
-    font-weight: bold;
-    opacity: 70%;
-    text-align: center;
-    font-size: 1vw;
 }
 
 /* Footer */
@@ -218,6 +113,7 @@ hr.new1 {
     display: flex;
     background-color: #0E1317;
     padding: 2% 5%;
+    margin-top: 5%;
 }
 
 .tyflogo {
