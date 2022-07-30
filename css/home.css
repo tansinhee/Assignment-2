@@ -52,7 +52,7 @@ button {
     width: 5%;
 }
 .bg1 {
-    background-image: url("/images/bg1.png");
+    background-image: url("../images/bg1.png");
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ button {
 }
 
 .bg2 {
-    background-image: url("/images/bg2.png");
+    background-image: url("../images/bg2.png");
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@ button {
 }
 
 .bg3 {
-    background-image: url("/images/bg3.png");
+    background-image: url("../images/bg3.png");
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -156,7 +156,7 @@ button {
 
 /* Special */
 .hspecial {
-    background-image: url("/images/hspecialbg.png");
+    background-image: url("../images/hspecialbg.png");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
