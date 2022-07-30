@@ -42,37 +42,58 @@ button {
     font-weight: bold;
 }
 
+.bookbtn:hover {
+    color: #C09863;
+    background-position: 100%;
+}
+
 /* Contents */
-#bg1 {
+.carousel-control-width{
+    width: 5%;
+}
+.bg1 {
     background-image: url("/images/bg1.png");
     color: white;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    /* padding: 10.3% 7.5%; */
+    padding: 8.3% 10%;
 }
 
-#bgcon {
-    padding: 10.3% 7.5%;
+.bg2 {
+    background-image: url("/images/bg2.png");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8.3% 10%;
 }
 
-#bgcon h2 {
+.bg3 {
+    background-image: url("/images/bg3.png");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8.3% 10%;
+}
+
+.bgcon h2 {
     font-size: 2.75vw;
     font-weight: bold;
+    margin: 2% 0 0;
 }
 
-#bgcon h1 {
+.bgcon h1 {
     font-size: 4.75vw;
     font-weight: bold;
+    margin: 3% 0;
 }
 
 .hbtn {
     width: 12%;
-    padding: 0.9% 0 0.75% 0;
+    padding: 0.95% 0 0.75% 0;
     border-radius: 10px;
     font-size: 0.9vw;
     font-weight: bold;
-    margin: 0 3% 0 0;
+    margin: 5% 0 0;
 }
 
 .hbtn:hover {
@@ -120,7 +141,7 @@ button {
     bottom: 5%;
     right: 0%;
     width: 18%;
-    padding: 1.3% 0 1% 0;
+    padding: 1.6% 0 1.1% 0;
     border-radius: 10px;
     font-size: 0.8vw;
     font-weight: bold;
@@ -133,90 +154,37 @@ button {
     border: solid #C09863 1.5px;
 }
 
-/* Reservation */
-.hreserve {
-    background-image: url("/images/BG\ 2.png");
-    padding: 5% 7.5%;
-
-}
-
-.hreserve h1 {
-    color: #C09863;
-    font-size: 2.2vw;
-    font-weight: bold;
+/* Special */
+.hspecial {
+    background-image: url("/images/hspecialbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
-}
-
-.hreservecon {
-    display: flex;
-}
-
-/* Reserve Form */
-form {
-    background-color: white;
-    border: #C09863 solid 3px;
-    border-radius: 15px;
-    padding: 5% 2%;
-}
-
-.hreservecon {
-    margin: 3% 7.5%;
-}
-
-.hreservecon h1 {
-    font-size: 1.7vw;
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 5%
-}
-
-input {
-    border-radius: 7px;
-    border: #C09863 solid 2px;
-    padding: 1.6% 2%;
-    font-family: 'Epilogue', sans-serif;
-    width: 46%;
-    font-size: 1vw;
-}
-
-.bookform {
-    margin: 1.5%;
-}
-
-input[type=button] {
-    width: 23%;
     color: white;
-    background-color: #C09863;
-    padding: 1.5% 1% 1.3% 1%;
-    background-image: linear-gradient(to right, transparent 50%, white 50%);
-    background-size: 210%;
-    background-position: 0%;
-    transition: ease-out 0.5s;
-    font-size: 0.9vw;
+    padding: 5%;
 }
 
-.submitbtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-    
+.hspecial h1 {
+    font-size: 4.75vw;
+    font-weight: bold;
 }
-input[type=button]:hover{
-    background-position: 100%;
+
+.hspecial p {
+    font-size: 1.5vw;
+}
+
+.specialbtn {
+    width: 10%;
+    padding: 0.9% 0 0.75% 0;
+    margin-top: 2%;
+    border-radius: 10px;
+    font-size: 0.8vw;
+    font-weight: bold;
+}
+
+.specialbtn:hover {
     color: #C09863;
-}
-
-/* Reserve Content */
-.reserveimg {
-    margin-left: 5%;
-    width: 40%;
-    border-radius: 15px;
-}
-
-.reserveimg img {
-    width: 100%;
+    background-position: 100%;
 }
 
 /* Our Menu */
@@ -285,6 +253,11 @@ input[type=button]:hover{
     font-weight: bold;
 }
 
+/* Our Menu Tablet and Mobile*/
+.ourmenu2 {
+    display: none;
+}
+
 /* Our Services */
 .services {
     background-color: #0E1317;
@@ -317,7 +290,7 @@ input[type=button]:hover{
 
 .simg {
     width: 25%;
-    margin: 2.5%;
+    margin: 2.5% 2.5% 1.5%;
 }
 
 .simg img {
@@ -333,12 +306,12 @@ input[type=button]:hover{
 }
 
 .sbtn {
-    width: 10%;
-    padding: 0.7% 0 0.5% 0;
+    width: 11.5%;
+    padding: 0.85% 0 0.65% 0;
     border-radius: 10px;
     font-size: 0.85vw;
     font-weight: bold;
-    margin: 3% 0;
+    margin: 0 0 3%;
 }
 
 .sbtn:hover {
@@ -423,7 +396,7 @@ input[type=button]:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2.5% 5.6%;
+    margin: 2.5% 5.6% 0.5%;
 }
 
 .gimg img {
@@ -485,10 +458,16 @@ input[type=button]:hover{
     padding: 0 4.5%;
 }
 
+.btxt h4 {
+    /* font-weight: bold; */
+    font-size: 0.7vw;
+    margin: 5% 0 2% 0;
+    color: #C09863;
+}
+
 .btxt h2 {
     font-weight: bold;
     font-size: 1.1vw;
-    margin: 5% 0 1% 0;
 }
 
 .btxt p {

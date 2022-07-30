@@ -69,20 +69,51 @@
             </div>
         </nav>
         <!-- Home Backgroud -->
-        <div id="bg1">
-            <div id="bgcon">
-                <div class="mb-5">
-                    <h2>Welcome to Delicious</h2>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active bg1">
+                    <div class="bgcon">
+                        <h2>Welcome to Delicious</h2>
+                        <h1>The taste that you'll <br>
+                            remember</h1>
+                        <button class="hbtn" onclick="location.href = 'food.html'">VIEW MORE ></button>
+                    </div>
                 </div>
-                <div class="mt-5 mb-5">
-                    <h1>The taste that you'll <br>
-                        remember.</h1>
+                <div class="carousel-item bg2">
+                    <div class="bgcon">
+                        <h2>Welcome to Delicious</h2>
+                        <h1>Check what services we<br>
+                            provide</h1>
+                        <button class="hbtn" onclick="location.href = 'service.html'">READ MORE ></button>
+                    </div>
                 </div>
-                <div class="d-flex">
-                    <button class="hbtn" onclick="location.href = 'food.html'">LEARN MORE ></button>
-                    <button class="hbtn" onclick="location.href = 'reserve.html'">TRY IT NOW ></button>
+                <div class="carousel-item bg3">
+                    <div class="bgcon">
+                        <h2>Welcome to Delicious</h2>
+                        <h1>Prepare every dishes<br>
+                            with heart</h1>
+                        <button class="hbtn" onclick="location.href = 'about.html'">LEARN MORE ></button>
+                    </div>
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
         <!-- About Us -->
         <div class="d-flex abt">
@@ -100,29 +131,14 @@
                     that, all ingredients used in our restaurant are fresh. All our meats are killed and shipped on the
                     same day.
                 </p>
-                <button class="rbtn1" onclick="location.href = 'service.html'">Read More ></button>
+                <button class="rbtn1" onclick="location.href = 'service.html'">READ MORE ></button>
             </div>
         </div>
-        <!-- Reservation -->
-        <div class="hreserve">
-            <h1>Reservation</h1>
-            <div class="hreservecon">
-                <form action="">
-                    <fieldset>
-                        <h1>Bookting table</h1>
-                        <input type="text" class="bookform" name="First" placeholder="Full Name" required>
-                        <input type="text" class="bookform" name="email" placeholder="Email" required>
-                        <input type="tel" class="bookform" name="phone" id="Phone Number" placeholder="Phone Number" required>
-                        <input type="Person" class="bookform" id="quantity" name="quantity" min="1" max="10" placeholder="Person" required>
-                        <input type="date" id="date" name="date" class="bookform" required>
-                        <input type="time" id="time" name="time" class="bookform" required>
-                        <div class="submitbtn">
-                            <input type="button" value="Booking Table >">
-                        </div>
-                    </fieldset>
-                </form>
-                <img class="reserveimg" src="images/reserve1.png" alt="Reserve">
-            </div>
+        <!-- Sepcial -->
+        <div class="hspecial justify-content-center align-center">
+            <h1>Monthy Special Promotion</h1>
+            <p>Please come and check out our Monthy Promotions!</p>
+            <button class="specialbtn" onclick="location.href = 'special.html'">LEARN MORE ></button>
         </div>
         <!-- Our Menu -->
         <div class="ourmenu">
@@ -151,6 +167,33 @@
                 </div>
             </div>
         </div>
+        <!-- Our Menu Tablet and Mobile-->
+        <div class="ourmenu2">
+            <h1 class="text-center">Our Menu</h1>
+            <div class="imgcontainer">
+                <div class="imgbox">
+                    <a href="food.html"><img src="images/hfoodm.png" class="menuimg" alt="Pizza">
+                        <div class="txtmiddle">
+                            <div class="menutxt">FOOD</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="imgbox">
+                    <a href="beverage.html"><img src="images/hbevm.png" class="menuimg" alt="Pizza">
+                        <div class="txtmiddle">
+                            <div class="menutxt">BEVERAGE</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="imgbox">
+                    <a href="dessert.html"><img src="images/hdessertm.png" class="menuimg" alt="Pizza">
+                        <div class="txtmiddle">
+                            <div class="menutxt">DESSERT</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
         <!-- Our Services -->
         <div class="services">
             <div class="stxt">
@@ -172,7 +215,7 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center align-center">
-                <button class="sbtn" onclick="location.href = 'service.html'">Explore More ></button>
+                <button class="sbtn" onclick="location.href = 'service.html'">EXPLORE MORE ></button>
             </div>
         </div>
         <!-- Our Chef -->
@@ -212,6 +255,9 @@
                 </div>
                 <div class="gimg1"><img src="images/buttnernutsoupY1 1.png" alt=""></div>
             </div>
+            <div class="d-flex justify-content-center align-center">
+                <button class="specialbtn" onclick="location.href = 'gallery.html'">VIEW MORE ></button>
+            </div>
         </div>
         <!-- Blog -->
         <div class="blogs">
@@ -226,6 +272,7 @@
                                 <img src="images/napkin 1@2x.png" alt="Napkins">
                             </div>
                             <div class="btxt">
+                                <h4>13 July 2022 Tuesday</h4>
                                 <h2>How to use napkins</h2>
                                 <p>As soon as you are seated, remove the napkin from your place setting, unfold it......
                                 </p>
@@ -240,6 +287,7 @@
                                 <img src="images/tablemannerY1 1.png" alt="Table Manner">
                             </div>
                             <div class="btxt">
+                                <h4>13 July 2022 Wednesday</h4>
                                 <h2>Table Manner</h2>
                                 <p>When you are finished with your dinner, place it loosely on the table, not on the
                                     plate and never on your chair......</p>
@@ -254,6 +302,7 @@
                                 <img src="images/wine 1.png" alt="Wines">
                             </div>
                             <div class="btxt">
+                                <h4>13 July 2022 Saturday</h4>
                                 <h2>Wine and steak pairing</h2>
                                 <p>Pairing Wine and Steak is one of the essential match-ups in your wine journey......
                                 </p>

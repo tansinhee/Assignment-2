@@ -3,7 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/reserve.css">
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous">
@@ -69,10 +69,27 @@
                 </div>
             </div>
         </nav>
-        <h1>Hi</h1>
-        <h1>Hi</h1>
-        <h1>Hi</h1>
-        <h1>Hi</h1>
+       <!-- Reservation -->
+       <div class="hreserve">
+        <h1>Reservation</h1>
+        <div class="hreservecon">
+            <form action="">
+                <fieldset>
+                    <h1>Bookting table</h1>
+                    <input type="text" class="bookform" name="First" placeholder="Full Name" required>
+                    <input type="text" class="bookform" name="email" placeholder="Email" required>
+                    <input type="tel" class="bookform" name="phone" id="Phone Number" placeholder="Phone Number" required>
+                    <input type="Person" class="bookform" id="quantity" name="quantity" min="1" max="10" placeholder="Person" required>
+                    <input type="date" id="date" name="date" class="bookform" required>
+                    <input type="time" id="time" name="time" class="bookform" required>
+                    <div class="submitbtn">
+                        <input type="button" value="Booking Table >">
+                    </div>
+                </fieldset>
+            </form>
+            <img class="reserveimg" src="images/reserve1.png" alt="Reserve">
+        </div>
+    </div>
     </div>
 </body>
 
