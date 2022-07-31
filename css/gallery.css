@@ -108,6 +108,15 @@ button {
     box-shadow: 6px 6px 10px #aaaaaa;
 }
 
+/* Model */
+.modal{
+    text-align: center;
+}
+
+.mimg{
+    width: 100%;
+}
+
 /* Footer */
 .tyfooter {
     display: flex;
