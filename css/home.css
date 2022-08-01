@@ -147,7 +147,6 @@ button.carousel-control-prev {
 }
 
 #abtcon p {
-    /* font-weight: 550; */
     font-size: 1vw;
     margin-bottom: 4.5%;
 }
@@ -424,6 +423,10 @@ button.carousel-control-prev {
     margin: 0 2%;
 }
 
+.gimg2 {
+    margin-bottom: 3.7%;
+}
+
 .gimgcenter {
     width: 32%;
 }
@@ -435,8 +438,6 @@ button.carousel-control-prev {
 }
 
 .ctxt {
-    margin: 0 10%;
-    padding-top: 4%;
     text-align: center;
 }
 
@@ -476,7 +477,6 @@ button.carousel-control-prev {
 }
 
 .btxt h4 {
-    /* font-weight: bold; */
     font-size: 0.7vw;
     margin: 5% 0 2% 0;
     color: #C09863;
@@ -600,4 +600,278 @@ button.carousel-control-prev {
 
 .social-icons .social-icon a:hover {
     opacity: 0.8;
+}
+
+@media screen and (min-width:375px) and (max-width:834px) {
+
+    /* Navigation Bar */
+    #logo1 {
+        width: 20%;
+    }
+
+    .bookbtn {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 1.75vw;
+    }
+
+    .dropdown .dropdown-item {
+        font-size: 1.75vw;
+    }
+
+    /* Contents */
+    .hbtn {
+        width: 16%;
+        padding: 1.45% 0 1% 0;
+        border-radius: 8px;
+        font-size: 1.5vw;
+        font-weight: bold;
+        margin: 5% 0 0;
+    }
+
+    /* About Us */
+    .abt {
+        margin: 5% 10%;
+        flex-direction: column-reverse;
+    }
+
+    #abtimg {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    #abtcon {
+        width: 100%;
+    }
+
+    #abtcon h1 {
+        font-size: 3.5vw;
+    }
+
+    #abtcon p {
+        font-size: 2.5vw;
+        margin-bottom: 15%;
+    }
+
+    .rbtn1 {
+        font-size: 1.5vw;
+
+    }
+
+    /* Special */
+    .hspecial p {
+        font-size: 2vw;
+    }
+
+    .specialbtn {
+        width: 16.8%;
+        font-size: 1.5vw;
+        padding: 1.45% 0 1% 0;
+    }
+
+    /* Our Menu */
+    .ourmenu {
+        display: none;
+    }
+
+    /* Our Menu Tablet and Mobile*/
+    .ourmenu2 {
+        display: block;
+        margin: 5% 10%;
+    }
+
+    .ourmenu2 h1 {
+        color: #C09863;
+        font-weight: bold;
+        font-size: 3.5vw;
+    }
+
+    .imgcontainer {
+        flex-direction: column;
+    }
+
+    .imgbox {
+        position: relative;
+        width: 100%;
+        margin: 2.5% 0;
+    }
+
+    .txtmiddle {
+        opacity: 0.65;
+    }
+
+    .menutxt {
+        color: white;
+        font-size: 3.5vw;
+        font-weight: bold;
+    }
+
+    /* Our Services */
+    .services {
+        background-color: #0E1317;
+        padding: 0 7.5%;
+    }
+
+    .stxt h1 {
+        font-size: 3.5vw;
+    }
+
+    .stxt p {
+        font-size: 2vw;
+    }
+
+    .simgbox {
+        flex-wrap: wrap;
+
+    }
+
+    .simg {
+        width: 45%;
+    }
+
+    .simg h2 {
+        font-size: 2vw;
+    }
+
+    .sbtn {
+        width: 19.6%;
+        padding: 1.6% 0 1.25% 0;
+        font-size: 1.5vw;
+    }
+
+    /* Our Chef */
+    .ourchef {
+        margin: 5% 7%;
+        padding: 0%;
+    }
+
+    .ctxt {
+        padding-top: 0;
+
+    }
+
+    .ctxt h1 {
+        font-size: 3.5vw;
+    }
+
+    .ctxt p {
+        font-size: 2vw;
+    }
+
+    .cimgbox {
+        flex-wrap: wrap;
+    }
+
+    .cimg {
+        width: 45%;
+    }
+
+    .cimg h2 {
+        font-size: 2vw;
+    }
+
+    .cimg p {
+        font-size: 1.75vw;
+    }
+
+    /* Gallery */
+    .gtxt h1 {
+        font-size: 3.5vw;
+    }
+
+    .gimg {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2.5% 5.6% 0.5%;
+    }
+
+    .gimg1 {
+        width: 80%;
+        margin: 2%;
+    }
+
+    .gimgcenter {
+        width: 80%;
+        margin: 2%;
+    }
+
+    /* Blog */
+    .ctxt h1 {
+        margin-top: 4%;
+        font-size: 3.5vw;
+    }
+
+    .bimgbox {
+        flex-wrap: wrap;
+        margin: 2.5% 2.6% 5% 2.6%;
+    }
+
+    .bbox1 {
+        width: 47%;
+        margin: 1.5%;
+    }
+
+    .btxt h4 {
+        font-size: 1.2vw;
+    }
+
+    .btxt h2 {
+        font-weight: bold;
+        font-size: 2vw;
+    }
+
+    .btxt p {
+        font-size: 1.4vw;
+    }
+
+    /* Footer */
+    .tyfooter {
+        flex-wrap: wrap;
+    }
+
+    .tyflogo {
+        width: 30%;
+    }
+
+    .whours {
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    .ftitle {
+        font-size: 3.5vw;
+    }
+
+    .whours h3 {
+        font-size: 2.2vw;
+    }
+
+    .whours p {
+        font-size: 2.2vw;
+    }
+
+    .whours h4 {
+        font-size: 2.2vw;
+    }
+
+    .fcontent {
+        width: 50%;
+        padding-left: 1%;
+    }
+
+    .fcontent a {
+        font-size: 2.2vw;
+    }
+
+    .social-icons {
+        width: 50%;
+        padding-top: 3%;
+    }
+    .social-icons .social-icon {
+        width: 15%;
+        height: 28%;
+    }
 }
