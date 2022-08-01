@@ -878,6 +878,7 @@ button.carousel-control-prev {
 }
 
 @media screen and (max-width:450px) {
+    /* Navigation bar */
     #logo1 {
         width: 40%;
     }
@@ -1127,7 +1128,7 @@ button.carousel-control-prev {
         font-size: 4vw;
     }
 
-    /* Special */
+    /* Banner */
     .banner2{
         text-align: center;
     }
