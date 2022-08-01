@@ -108,6 +108,15 @@ button {
     box-shadow: 6px 6px 10px #aaaaaa;
 }
 
+/* Model */
+.modal{
+    text-align: center;
+}
+
+.mimg{
+    width: 100%;
+}
+
 /* Footer */
 .tyfooter {
     display: flex;
@@ -188,6 +197,7 @@ button {
     border-radius: 100%;
     margin-top: 1%;
     margin-right: 0.5rem;
+    text-decoration: none;
 }
 
 .social-icons .social-icon a {
