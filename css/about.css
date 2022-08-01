@@ -167,7 +167,7 @@ hr.new1 {
     margin: auto;
 }
 
-.vtitle{
+.vtitle {
     color: white;
     font-weight: bold;
     margin-bottom: 1.5%;
@@ -205,7 +205,7 @@ hr.new1 {
 }
 
 .cimg {
-    flex:1 0 25%;
+    flex: 1 0 25%;
     min-height: 25vh;
     margin: 2.5%;
 }
@@ -223,11 +223,45 @@ hr.new1 {
     font-size: 1.25vw;
 }
 
-.cimg p{
+.cimg p {
     font-weight: bold;
     opacity: 70%;
     text-align: center;
     font-size: 1vw;
+}
+
+/* Banner */
+.banner2 {
+    background-image: url("../images/hspecialbg.png");
+    padding: 2% 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.banner2 p {
+    color: #C09863;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.banner2 h1 {
+    font-size: 3.25vw;
+    font-weight: bold;
+}
+
+.specialbtn {
+    width: 10%;
+    padding: 0.9% 0 0.75% 0;
+    margin-top: 2%;
+    border-radius: 10px;
+    font-size: 0.8vw;
+    font-weight: bold;
+}
+
+.specialbtn:hover {
+    color: #C09863;
+    background-position: 100%;
 }
 
 /* Footer */
@@ -319,4 +353,93 @@ hr.new1 {
 
 .social-icons .social-icon a:hover {
     opacity: 0.8;
+}
+
+/* Tablet */
+@media screen and (max-width: 834px) and (min-width: 375px) {
+
+    /* AboutUs */
+    .content {
+        flex-direction: column;
+        margin: 5% 10%;
+    }
+
+    #abtcon {
+        max-width: 100%;
+        margin-right: 0%;
+    }
+
+    #abtimg {
+        margin: auto;
+    }
+
+    /* Our Mission */
+    .mission {
+        padding: 0 10%;
+    }
+
+    .mimgbox {
+        flex-wrap: wrap;
+    }
+
+    .mimg {
+        width: 45%;
+    }
+
+    /* Our Chef */
+    .ourchef {
+        padding: 0 10%;
+    }
+
+    .cimg {
+        flex: 1 0 30%;
+    }
+
+    /* Banner */
+    .specialbtn {
+        width: 16.8%;
+        font-size: 1.5vw;
+        padding: 1.45% 0 1% 0;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 375px) {
+
+    /* AboutUs */
+    .content {
+        flex-direction: column;
+        margin: 5% 10%;
+    }
+
+    #abtcon {
+        max-width: 100%;
+        margin-right: 0%;
+    }
+
+    #abtimg {
+        margin: auto;
+    }
+
+    /* Our Mission */
+    .mission {
+        padding: 0 10%;
+    }
+
+    .mimgbox {
+        flex-wrap: wrap;
+    }
+
+    .mimg {
+        width: 100%;
+    }
+
+    /* Our Chef */
+    .ourchef {
+        padding: 0 10%;
+    }
+
+    .cimg {
+        flex: 1 0 50%;
+    }
 }
