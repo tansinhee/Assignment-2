@@ -602,7 +602,7 @@ button.carousel-control-prev {
     opacity: 0.8;
 }
 
-@media screen and (min-width:375px) and (max-width:834px) {
+@media screen and (min-width:450px) and (max-width:834px) {
 
     /* Navigation Bar */
     #logo1 {
@@ -870,8 +870,328 @@ button.carousel-control-prev {
         width: 50%;
         padding-top: 3%;
     }
+
     .social-icons .social-icon {
         width: 15%;
         height: 28%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    #logo1 {
+        width: 40%;
+    }
+
+    .bookbtn {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 5vw;
+    }
+
+    .dropdown .dropdown-item {
+        font-size: 5vw;
+    }
+
+    /* Content */
+    .bg1 {
+        height: 45vh;
+        padding: 25% 10%;
+    }
+
+    .bg2 {
+        height: 45vh;
+        padding: 25% 10%;
+    }
+
+    .bg3 {
+        height: 45vh;
+        padding: 25% 10%;
+    }
+
+    .bgcon h2 {
+        font-size: 5vw;
+    }
+
+    .bgcon h1 {
+        font-size: 7vw;
+    }
+
+    .hbtn {
+        width: 32%;
+        font-size: 3vw;
+        padding: 3% 0 1.75% 0;
+    }
+
+    /* About Us */
+    .abt {
+        margin: 5% 8%;
+        flex-direction: column-reverse;
+    }
+
+    #abtimg {
+        width: 100%;
+        margin: 0;
+    }
+
+    #abtcon {
+        width: 100%;
+    }
+
+    #abtcon h1 {
+        font-size: 7vw;
+    }
+
+    #abtcon p {
+        font-size: 5vw;
+        margin-bottom: 20%;
+    }
+
+    .rbtn1 {
+        width: 32%;
+        font-size: 3vw;
+        padding: 3% 0 1.75% 0;
+
+    }
+
+    /* Special */
+    .hspecial h1 {
+        font-size: 7vw;
+    }
+
+    .hspecial p {
+        font-size: 5vw;
+    }
+
+    .specialbtn {
+        width: 32%;
+        font-size: 3vw;
+        padding: 3% 0 1.75% 0;
+    }
+
+    /* Our Menu */
+    .ourmenu {
+        display: none;
+    }
+
+    /* Our Menu Tablet and Mobile*/
+    .ourmenu2 {
+        display: block;
+        margin: 5% 8%;
+    }
+
+    .ourmenu2 h1 {
+        color: #C09863;
+        font-weight: bold;
+        font-size: 7vw;
+    }
+
+    .imgcontainer {
+        flex-direction: column;
+    }
+
+    .imgbox {
+        position: relative;
+        width: 100%;
+        margin: 2.5% 0;
+    }
+
+    .txtmiddle {
+        opacity: 0.65;
+    }
+
+    .menutxt {
+        color: white;
+        font-size: 5vw;
+        font-weight: bold;
+    }
+
+    /* Our Services */
+    .services {
+        background-color: #0E1317;
+        padding: 0 8%;
+    }
+
+    .stxt h1 {
+        font-size: 7vw;
+    }
+
+    .stxt p {
+        font-size: 5vw;
+    }
+
+    .simgbox {
+        flex-direction: column;
+    }
+
+    .simg {
+        width: 100%;
+        margin: 2.5% 0;
+    }
+
+    .simg h2 {
+        font-size: 5vw;
+    }
+
+    .sbtn {
+        width: 35%;
+        font-size: 3vw;
+        padding: 3% 0 1.75% 0;
+    }
+
+    /* Our Chef */
+    .ourchef {
+        margin: 5% 8%;
+        padding: 0%;
+    }
+
+    .ctxt {
+        padding-top: 0;
+
+    }
+
+    .ctxt h1 {
+        font-size: 7vw;
+    }
+
+    .ctxt p {
+        font-size: 5vw;
+    }
+
+    .cimgbox {
+        flex-direction: column;
+    }
+
+    .cimg {
+        width: 100%;
+        margin: 2.5% 0;
+    }
+
+    .cimg h2 {
+        font-size: 7vw;
+    }
+
+    .cimg p {
+        font-size: 5vw;
+    }
+
+    /* Gallery */
+    .gtxt h1 {
+        font-size: 7vw;
+    }
+
+    .gimg {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2.5% 0 0.5%;
+    }
+
+    .gimg1 {
+        width: 100%;
+        margin: 2% 0;
+    }
+
+    .gimgcenter {
+        width: 100%;
+        margin: 2% 0;
+    }
+
+    /* Blog */
+    .ctxt h1 {
+        margin-top: 4%;
+        font-size: 7vw;
+    }
+
+    .bimgbox {
+        flex-direction: column;
+        margin: 2.5% 0 5%;
+    }
+
+    .bbox1 {
+        width: 100%;
+        margin: 4% 0;
+    }
+
+    .btxt h4 {
+        font-size: 3vw;
+    }
+
+    .btxt h2 {
+        font-weight: bold;
+        font-size: 5vw;
+    }
+
+    .btxt p {
+        font-size: 4vw;
+    }
+
+    /* Special */
+    .banner2{
+        text-align: center;
+    }
+    .banner2 h1 {
+        font-size: 7vw;
+    }
+
+    .banner2 p {
+        font-size: 5vw;
+    }
+
+    /* Footer */
+    .tyfooter {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tyflogo {
+        width: 70%;
+        margin: 5% 0;
+    }
+
+    .whours {
+        width: 80%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .ftitle {
+        font-size: 7vw;
+    }
+
+    .whours h3 {
+        font-size: 4.5vw;
+    }
+
+    .whours p {
+        font-size: 4.5vw;
+    }
+
+    .whours h4 {
+        font-size: 4.5vw;
+    }
+
+    .fcontent {
+        width: 80%;
+        text-align: center;
+    }
+
+    .fcontent a {
+        font-size: 4.5vw;
+    }
+
+    .social-icons {
+        width: 80%;
+        justify-content: center;
+        padding-left: 14%;
+    }
+
+    .social-icons .social-icon {
+        height: 55px;
+        width: 55px;
+        justify-content: center;
+        
     }
 }
