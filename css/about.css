@@ -357,6 +357,22 @@ hr.new1 {
 
 /* Tablet */
 @media screen and (max-width: 834px) and (min-width: 375px) {
+    /* Navigation Bar */
+    #logo1 {
+        width: 20%;
+    }
+
+    .bookbtn {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 1.75vw;
+    }
+
+    .dropdown .dropdown-item {
+        font-size: 1.75vw;
+    }
 
     /* AboutUs */
     .content {
@@ -400,6 +416,54 @@ hr.new1 {
         width: 16.8%;
         font-size: 1.5vw;
         padding: 1.45% 0 1% 0;
+    }
+
+    /* Footer */
+    .tyfooter {
+        flex-wrap: wrap;
+    }
+
+    .tyflogo {
+        width: 30%;
+    }
+
+    .whours {
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    .ftitle {
+        font-size: 3.5vw;
+    }
+
+    .whours h3 {
+        font-size: 2.2vw;
+    }
+
+    .whours p {
+        font-size: 2.2vw;
+    }
+
+    .whours h4 {
+        font-size: 2.2vw;
+    }
+
+    .fcontent {
+        width: 50%;
+        padding-left: 1%;
+    }
+
+    .fcontent a {
+        font-size: 2.2vw;
+    }
+
+    .social-icons {
+        width: 50%;
+        padding-top: 3%;
+    }
+    .social-icons .social-icon {
+        width: 15%;
+        height: 28%;
     }
 }
 
