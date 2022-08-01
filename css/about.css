@@ -356,7 +356,8 @@ hr.new1 {
 }
 
 /* Tablet */
-@media screen and (max-width: 834px) and (min-width: 375px) {
+@media screen and (max-width: 834px) and (min-width: 450px) {
+
     /* Navigation Bar */
     #logo1 {
         width: 20%;
@@ -418,7 +419,6 @@ hr.new1 {
         padding: 1.45% 0 1% 0;
     }
 
-    /* Footer */
     .tyfooter {
         flex-wrap: wrap;
     }
@@ -461,6 +461,7 @@ hr.new1 {
         width: 50%;
         padding-top: 3%;
     }
+
     .social-icons .social-icon {
         width: 15%;
         height: 28%;
@@ -468,7 +469,24 @@ hr.new1 {
 }
 
 /* Mobile */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
+
+    /* Navigation bar */
+    #logo1 {
+        width: 40%;
+    }
+
+    .bookbtn {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 5vw;
+    }
+
+    .dropdown .dropdown-item {
+        font-size: 5vw;
+    }
 
     /* AboutUs */
     .content {
@@ -505,5 +523,73 @@ hr.new1 {
 
     .cimg {
         flex: 1 0 50%;
+    }
+
+     /* Banner */
+     .banner2{
+        text-align: center;
+    }
+    .banner2 h1 {
+        font-size: 7vw;
+    }
+
+    .banner2 p {
+        font-size: 5vw;
+    }
+
+    /* Footer */
+    .tyfooter {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tyflogo {
+        width: 70%;
+        margin: 5% 0;
+    }
+
+    .whours {
+        width: 80%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .ftitle {
+        font-size: 7vw;
+    }
+
+    .whours h3 {
+        font-size: 4.5vw;
+    }
+
+    .whours p {
+        font-size: 4.5vw;
+    }
+
+    .whours h4 {
+        font-size: 4.5vw;
+    }
+
+    .fcontent {
+        width: 80%;
+        text-align: center;
+    }
+
+    .fcontent a {
+        font-size: 4.5vw;
+    }
+
+    .social-icons {
+        width: 80%;
+        justify-content: center;
+        padding-left: 14%;
+    }
+
+    .social-icons .social-icon {
+        height: 55px;
+        width: 55px;
+        justify-content: center;
+        
     }
 }

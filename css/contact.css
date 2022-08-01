@@ -324,7 +324,7 @@ input {
 }
 
 /* Tablet */
-@media screen and (max-width: 834px) and (min-width: 375px) {
+@media screen and (max-width: 834px) and (min-width: 450px) {
 
     /* Navigation Bar */
     #logo1 {
@@ -342,6 +342,7 @@ input {
     .dropdown .dropdown-item {
         font-size: 1.75vw;
     }
+
 
     /* Contact */
     #contact {
@@ -374,10 +375,76 @@ input {
     form {
         padding-left: 0;
     }
+
+    /* Footer */
+    .tyfooter {
+        flex-wrap: wrap;
+    }
+
+    .tyflogo {
+        width: 30%;
+    }
+
+    .whours {
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    .ftitle {
+        font-size: 3.5vw;
+    }
+
+    .whours h3 {
+        font-size: 2.2vw;
+    }
+
+    .whours p {
+        font-size: 2.2vw;
+    }
+
+    .whours h4 {
+        font-size: 2.2vw;
+    }
+
+    .fcontent {
+        width: 50%;
+        padding-left: 1%;
+    }
+
+    .fcontent a {
+        font-size: 2.2vw;
+    }
+
+    .social-icons {
+        width: 50%;
+        padding-top: 3%;
+    }
+
+    .social-icons .social-icon {
+        width: 15%;
+        height: 28%;
+    }
 }
 
 /* Mobile */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
+
+    /* Navigation bar */
+    #logo1 {
+        width: 40%;
+    }
+
+    .bookbtn {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 5vw;
+    }
+
+    .dropdown .dropdown-item {
+        font-size: 5vw;
+    }
 
     /* Contact */
     #contact {
@@ -407,5 +474,74 @@ input {
 
     form {
         padding-left: 0;
+    }
+
+    /* Banner */
+    .banner2 {
+        text-align: center;
+    }
+
+    .banner2 h1 {
+        font-size: 7vw;
+    }
+
+    .banner2 p {
+        font-size: 5vw;
+    }
+
+    /* Footer */
+    .tyfooter {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tyflogo {
+        width: 70%;
+        margin: 5% 0;
+    }
+
+    .whours {
+        width: 80%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .ftitle {
+        font-size: 7vw;
+    }
+
+    .whours h3 {
+        font-size: 4.5vw;
+    }
+
+    .whours p {
+        font-size: 4.5vw;
+    }
+
+    .whours h4 {
+        font-size: 4.5vw;
+    }
+
+    .fcontent {
+        width: 80%;
+        text-align: center;
+    }
+
+    .fcontent a {
+        font-size: 4.5vw;
+    }
+
+    .social-icons {
+        width: 80%;
+        justify-content: center;
+        padding-left: 14%;
+    }
+
+    .social-icons .social-icon {
+        height: 55px;
+        width: 55px;
+        justify-content: center;
+
     }
 }
