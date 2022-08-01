@@ -211,7 +211,7 @@ button {
 }
 
 /* Tablet */
-@media screen and (max-width: 1024px) and (min-width: 600px) {
+@media screen and (max-width: 834px) and (min-width: 375px) {
     .imgbox{
         flex:1 0 33%;
         min-height: 25vh;
@@ -223,7 +223,7 @@ button {
 }
 
 /* Mobile */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 375px) {
     .imgbox{
         flex:1 0 50%;
         min-height: 25vh;
