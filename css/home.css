@@ -48,9 +48,10 @@ button {
 }
 
 /* Contents */
-.carousel-control-width{
+.carousel-control-width {
     width: 5%;
 }
+
 .bg1 {
     background-image: url("../images/bg1.png");
     color: white;
@@ -99,6 +100,10 @@ button {
 .hbtn:hover {
     color: #C09863;
     background-position: 100%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 30px;
 }
 
 /* About Us */
@@ -412,6 +417,7 @@ button {
     width: 32%;
 }
 
+
 /* Blog */
 .blogs {
     padding: 0 10%;
@@ -472,6 +478,25 @@ button {
 
 .btxt p {
     font-size: 0.85vw;
+}
+
+/* Banner */
+.banner2 {
+    background-image: url("../images/hspecialbg.png");
+    padding: 2% 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.banner2 p {
+    color: #C09863;
+    font-size: 1.5vw;
+}
+
+.banner2 h1 {
+    font-size: 3.25vw;
+    font-weight: bold;
 }
 
 /* Footer */
