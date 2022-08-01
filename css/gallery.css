@@ -91,14 +91,15 @@ button {
 /* Gallery */
 .gallery{
     display: flex;
-    justify-content: space-around;
+    flex-flow: row wrap;
     max-width: 80%;
     margin: auto;
     margin-top: 2%;
 }
 
 .imgbox{
-    width: 25%;
+    flex:1 0 25%;
+    min-height: 25vh;
     margin: 2.5%;
 }
 
@@ -207,4 +208,24 @@ button {
 
 .social-icons .social-icon a:hover {
     opacity: 0.8;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+    .imgbox{
+        flex:1 0 33%;
+        min-height: 25vh;
+    }
+
+    .none{
+        display: none;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+    .imgbox{
+        flex:1 0 50%;
+        min-height: 25vh;
+    }
 }
