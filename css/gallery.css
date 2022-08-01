@@ -19,32 +19,47 @@ button {
 }
 
 /* Navigation Bar */
-#nav {
-    font-weight: bold;
-}
-
 #logo1 {
-    width: 15%;
+    width: 12%;
 }
 
 #logo1 img {
     width: 100%;
 }
 
-.nav-item:hover {
-    color: #C09863;
-}
-
 .bookbtn {
-    width: 8%;
-    padding: 0.8% 0 0.55% 0;
+    width: 8.5%;
+    padding: 0.75% 0 0.65% 0;
     border-radius: 10px;
-    font-size: 0.8vw;
+    font-size: 0.7vw;
     font-weight: bold;
 }
+
 .bookbtn:hover {
     color: #C09863;
     background-position: 100%;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 1vw;
+    font-weight: bold;
+    transition: ease-out 0.2s;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #C09863;
+    transform: scale(1.1);
+}
+
+.dropdown .dropdown-item {
+    font-size: 1vw;
+    color: white;
+}
+
+.dropdown .dropdown-item:hover {
+    background-color: #C09863;
+    color: black;
+
 }
 
 
@@ -66,8 +81,8 @@ button {
 }
 
 /* GalleryTitle */
-.title{
-    text-align: center;  
+.title {
+    text-align: center;
 }
 
 .gtxt {
@@ -89,7 +104,7 @@ button {
 }
 
 /* Gallery */
-.gallery{
+.gallery {
     display: flex;
     flex-flow: row wrap;
     max-width: 80%;
@@ -98,24 +113,24 @@ button {
     margin-bottom: 5%;
 }
 
-.imgbox{
-    flex:1 0 25%;
+.imgbox {
+    flex: 1 0 25%;
     min-height: 25vh;
     margin: 2.5%;
 }
 
-.imgbox img{
+.imgbox img {
     width: 100%;
     border-radius: 15px;
     box-shadow: 6px 6px 10px #aaaaaa;
 }
 
 /* Model */
-.modal{
+.modal {
     text-align: center;
 }
 
-.mimg{
+.mimg {
     width: 100%;
 }
 
@@ -246,12 +261,28 @@ button {
 
 /* Tablet */
 @media screen and (max-width: 834px) and (min-width: 375px) {
-    .imgbox{
-        flex:1 0 33%;
-        min-height: 25vh;
+    /* Navigation Bar */
+    #logo1 {
+        width: 20%;
     }
 
-    .none{
+    .bookbtn {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 1.75vw;
+    }
+
+    .dropdown .dropdown-item {
+        font-size: 1.75vw;
+    }
+    
+    .imgbox {
+        flex: 1 0 33%;
+    }
+
+    .none {
         display: none;
     }
 
@@ -260,12 +291,60 @@ button {
         font-size: 1.5vw;
         padding: 1.45% 0 1% 0;
     }
+
+    /* Footer */
+    .tyfooter {
+        flex-wrap: wrap;
+    }
+
+    .tyflogo {
+        width: 30%;
+    }
+
+    .whours {
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    .ftitle {
+        font-size: 3.5vw;
+    }
+
+    .whours h3 {
+        font-size: 2.2vw;
+    }
+
+    .whours p {
+        font-size: 2.2vw;
+    }
+
+    .whours h4 {
+        font-size: 2.2vw;
+    }
+
+    .fcontent {
+        width: 50%;
+        padding-left: 1%;
+    }
+
+    .fcontent a {
+        font-size: 2.2vw;
+    }
+
+    .social-icons {
+        width: 50%;
+        padding-top: 3%;
+    }
+
+    .social-icons .social-icon {
+        width: 15%;
+        height: 28%;
+    }
 }
 
 /* Mobile */
 @media screen and (max-width: 375px) {
-    .imgbox{
-        flex:1 0 50%;
-        min-height: 25vh;
+    .imgbox {
+        flex: 1 0 50%;
     }
 }
