@@ -18,27 +18,19 @@ button {
 }
 
 /* Navigation Bar */
-#nav {
-    font-weight: bold;
-}
-
 #logo1 {
-    width: 15%;
+    width: 12%;
 }
 
 #logo1 img {
     width: 100%;
 }
 
-.nav-item:hover {
-    color: #C09863;
-}
-
 .bookbtn {
-    width: 8%;
-    padding: 0.8% 0 0.55% 0;
+    width: 8.5%;
+    padding: 0.75% 0 0.65% 0;
     border-radius: 10px;
-    font-size: 0.8vw;
+    font-size: 0.7vw;
     font-weight: bold;
 }
 
@@ -47,17 +39,35 @@ button {
     background-position: 100%;
 }
 
-/* Contents */
-.carousel-control-width {
-    width: 5%;
+.navbar .navbar-nav .nav-link {
+    font-size: 1vw;
+    font-weight: bold;
+    transition: ease-out 0.2s;
 }
 
+.navbar .navbar-nav .nav-link:hover {
+    color: #C09863;
+    transform: scale(1.1);
+}
+
+.dropdown .dropdown-item {
+    font-size: 1vw;
+    color: white;
+}
+
+.dropdown .dropdown-item:hover {
+    background-color: #C09863;
+    color: black;
+
+}
+
+/* Contents */
 .bg1 {
     background-image: url("../images/bg1.png");
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 8.3% 10%;
+    padding: 13.3% 10% 8.3%;
 }
 
 .bg2 {
@@ -65,7 +75,7 @@ button {
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 8.3% 10%;
+    padding: 13.3% 10% 8.3%;
 }
 
 .bg3 {
@@ -73,7 +83,7 @@ button {
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 8.3% 10%;
+    padding: 13.3% 10% 8.3%;
 }
 
 .bgcon h2 {
@@ -102,8 +112,9 @@ button {
     background-position: 100%;
 }
 
-.carousel-control-next, .carousel-control-prev {
-    width: 30px;
+button.carousel-control-next,
+button.carousel-control-prev {
+    width: 10%;
 }
 
 /* About Us */
