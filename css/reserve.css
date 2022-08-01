@@ -126,3 +126,128 @@ input[type=button]:hover{
 .reserveimg img {
     width: 100%;
 }
+
+/* Banner */
+.banner2 {
+    background-image: url("../images/hspecialbg.png");
+    padding: 2% 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.banner2 p {
+    color: #C09863;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.banner2 h1 {
+    font-size: 3.25vw;
+    font-weight: bold;
+}
+
+.specialbtn {
+    width: 10%;
+    padding: 0.9% 0 0.75% 0;
+    margin-top: 2%;
+    border-radius: 10px;
+    font-size: 0.8vw;
+    font-weight: bold;
+}
+
+.specialbtn:hover {
+    color: #C09863;
+    background-position: 100%;
+}
+
+/* Footer */
+.tyfooter {
+    display: flex;
+    background-color: #0E1317;
+    padding: 2% 5%;
+}
+
+.tyflogo {
+    width: 15%;
+    margin-right: 10%;
+}
+
+.ftitle {
+    color: white;
+    font-size: 1.7vw;
+    font-weight: bold;
+    margin-bottom: 3%;
+    padding-top: 3%;
+}
+
+.whours {
+    width: 30%;
+}
+
+.whours h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.1vw;
+    margin: 2% 0 0.5% 0;
+}
+
+.whours p {
+    color: #C09863;
+    font-size: 1.1vw;
+    margin: 0.5% 0 2% 0;
+}
+
+.whours h4 {
+    color: #EF6D58;
+    font-weight: bold;
+    font-size: 1.1vw;
+}
+
+.fcontent {
+    flex-direction: column;
+    width: 30%;
+}
+
+.fcontent a {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.fcontent a:hover {
+    opacity: 0.8;
+}
+
+.fc {
+    color: #ffffff;
+}
+
+.social-icons {
+    width: 15%;
+
+}
+
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22%;
+    height: 22%;
+    background-color: #C09863;
+    color: #fff;
+    border-radius: 100%;
+    margin-top: 1%;
+    margin-right: 0.5rem;
+    text-decoration: none;
+}
+
+.social-icons .social-icon a {
+    color: #bd5d38;
+    text-decoration: underline;
+}
+
+.social-icons .social-icon a:hover {
+    opacity: 0.8;
+}
