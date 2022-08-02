@@ -235,8 +235,8 @@ input[type=button]:hover {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 22%;
-    height: 22%;
+    width: 2.5rem;
+    height: 2.5rem;
     background-color: #C09863;
     color: #fff;
     border-radius: 100%;
@@ -425,6 +425,6 @@ input[type=button]:hover {
         height: 55px;
         width: 55px;
         justify-content: center;
-
+        
     }
 }

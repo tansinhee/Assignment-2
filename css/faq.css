@@ -202,8 +202,8 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 22%;
-    height: 22%;
+    width: 2.5rem;
+    height: 2.5rem;
     background-color: #C09863;
     color: #fff;
     border-radius: 100%;
@@ -393,6 +393,6 @@
         height: 55px;
         width: 55px;
         justify-content: center;
-
+        
     }
 }
