@@ -488,6 +488,21 @@ hr.new1 {
         font-size: 5vw;
     }
 
+    /* Header */
+    #bg1 {
+        background-size: cover;
+        height: 30vh;
+    }
+
+    #bgcon {
+        padding: 25% 16%;
+        height: 30vh;
+    }
+
+    #bgcon h1 {
+        font-size: 7vw;
+    }
+
     /* AboutUs */
     .content {
         flex-direction: column;
@@ -501,14 +516,14 @@ hr.new1 {
 
     #abtcon p {
         font-weight: unset;
-        font-size: 5vw;
+        font-size: 4vw;
         margin-bottom: 20%;
     }
 
     #abtimg {
         margin: auto;
     }
-    
+
 
     /* Our Mission */
     .mission {
@@ -531,10 +546,15 @@ hr.new1 {
         font-size: 4vw;
     }
 
+    .vtitle{
+        font-size: 6vw;
+    }
+
     /* Our Chef */
     .ctxt p {
         font-size: 4vw;
     }
+
     .ourchef {
         padding: 0 10%;
     }
@@ -543,18 +563,19 @@ hr.new1 {
         flex: 1 0 50%;
     }
 
-    .cimg h2{
+    .cimg h2 {
         font-size: 4.5vw;
     }
 
-    .cimg p{
+    .cimg p {
         font-size: 4vw;
     }
 
-     /* Banner */
-     .banner2{
+    /* Banner */
+    .banner2 {
         text-align: center;
     }
+
     .banner2 h1 {
         font-size: 7vw;
     }
@@ -616,6 +637,6 @@ hr.new1 {
         height: 55px;
         width: 55px;
         justify-content: center;
-        
+
     }
 }
