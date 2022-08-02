@@ -1,3 +1,9 @@
+#container {
+    background-color: #F9F5EC;
+    max-width: 1920px;
+    font-family: 'Epilogue', sans-serif;
+}
+
 /* Buttons Section */
 button {
     border: none;
@@ -22,7 +28,7 @@ button {
 
 .bookbtn {
     width: 8.5%;
-    padding: 0.75% 0 0.65% 0;
+    padding: 0.9% 0 0.9% 0;
     border-radius: 10px;
     font-size: 0.7vw;
     font-weight: bold;
@@ -55,18 +61,29 @@ button {
 
 }
 
-/* Reservation */
-.hreserve {
-    background-image: url("/images/BG\ 2.png");
-    padding: 5% 7.5%;
-
+/* Header */
+#bg1 {
+    background-image: url("../images/reservebg.png");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.hreserve h1 {
-    color: #C09863;
-    font-size: 2.2vw;
+#bgcon {
+    padding: 10.3% 0;
+}
+
+#bgcon h1 {
+    font-size: 4.75vw;
     font-weight: bold;
     text-align: center;
+}
+
+/* Reservation */
+.hreserve {
+    background-image: url("../images/BG\ 2.png");
+    padding: 5% 7.5%;
+
 }
 
 .hreservecon {
@@ -78,7 +95,7 @@ form {
     background-color: white;
     border: #C09863 solid 3px;
     border-radius: 15px;
-    padding: 5% 2%;
+    padding: 3% 2%;
 }
 
 .hreservecon {
@@ -86,11 +103,17 @@ form {
 }
 
 .hreservecon h1 {
-    font-size: 1.7vw;
-    color: black;
+    font-size: 2.2vw;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 5%
+
+}
+
+.hreservecon p {
+    font-size: 1vw;
+    font-weight: bold;
+    text-align: center;
+    margin: 5%;
 }
 
 input {
@@ -110,12 +133,13 @@ input[type=button] {
     width: 23%;
     color: white;
     background-color: #C09863;
-    padding: 1.5% 1% 1.3% 1%;
+    padding: 1.8% 1% 1.5% 1%;
     background-image: linear-gradient(to right, transparent 50%, white 50%);
     background-size: 210%;
     background-position: 0%;
     transition: ease-out 0.5s;
     font-size: 0.9vw;
+    font-weight: bold;
 }
 
 .submitbtn {
@@ -123,7 +147,6 @@ input[type=button] {
     justify-content: center;
     align-items: center;
     margin-top: 5%;
-
 }
 
 input[type=button]:hover {
@@ -239,6 +262,12 @@ input[type=button]:hover {
     color: #ffffff;
 }
 
+.fc p {
+    color: #C09863;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
 .social-icons {
     width: 15%;
 
@@ -286,6 +315,52 @@ input[type=button]:hover {
         font-size: 1.75vw;
     }
 
+    /* Header */
+    #bgcon {
+        padding: 18% 0 12%;
+    }
+
+    /* Reservation */
+    .hreservecon {
+        flex-direction: column;
+    }
+
+    /* Reserve Form */
+    form {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .hreservecon h1 {
+        font-size: 3.75vw;
+
+    }
+
+    .hreservecon p {
+        font-size: 2vw;
+    }
+
+    input {
+        padding: 1.6% 2%;
+        width: 97%;
+        font-size: 1vw;
+    }
+
+    input[type=button] {
+        font-size: 1.5vw;
+    }
+
+    .submitbtn {
+        display: flex;
+        margin-top: 2%;
+    }
+
+    /* Reserve Content */
+    .reserveimg {
+        width: 100%;
+        margin: auto;
+    }
+
     /* Banner */
     .banner2 h1 {
         font-size: 4.75vw;
@@ -293,6 +368,12 @@ input[type=button]:hover {
 
     .banner2 p {
         font-size: 2vw;
+    }
+
+    .specialbtn {
+        width: 16.8%;
+        font-size: 1.5vw;
+        padding: 1.45% 0 1% 0;
     }
 
     /* Footer */
@@ -361,11 +442,63 @@ input[type=button]:hover {
     }
 
     .navbar .navbar-nav .nav-link {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .dropdown .dropdown-item {
-        font-size: 5vw;
+        font-size: 4vw;
+    }
+
+    /* Reservation */
+    .hreservecon {
+        flex-direction: column;
+    }
+
+    /* Reserve Form */
+    form {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .hreservecon {
+        margin: 0;
+    }
+
+    .hreservecon h1 {
+        font-size: 6vw;
+        margin: 5% 0;
+
+    }
+
+    .hreservecon p {
+        display: none;
+    }
+
+    input {
+        padding: 1.6% 2%;
+        width: 97%;
+        font-size: 1vw;
+    }
+
+    input[type=button] {
+        width: 48%;
+        font-size: 3vw;
+    }
+
+    .submitbtn {
+        display: flex;
+        margin-top: 8%;
+    }
+
+    .bookform {
+        margin: 3% 0;
+    }
+
+
+    /* Reserve Content */
+    .reserveimg {
+        width: 100%;
+        margin: auto;
     }
 
     /* Banner */
@@ -379,6 +512,12 @@ input[type=button]:hover {
 
     .banner2 p {
         font-size: 4vw;
+    }
+
+    .specialbtn {
+        width: 32%;
+        font-size: 3vw;
+        padding: 3% 0 1.75% 0;
     }
 
     /* Footer */
