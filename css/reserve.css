@@ -273,6 +273,15 @@ input[type=button]:hover {
         font-size: 1.75vw;
     }
 
+    /* Banner */
+    .banner2 h1 {
+        font-size: 4.75vw;
+    }
+
+    .banner2 p {
+        font-size: 2vw;
+    }
+
     /* Footer */
     .tyfooter {
         flex-wrap: wrap;
@@ -312,6 +321,10 @@ input[type=button]:hover {
         font-size: 2.2vw;
     }
 
+    .fc p {
+        font-size: 2.2vw;
+    }
+
     .social-icons {
         width: 50%;
         padding-top: 3%;
@@ -319,7 +332,7 @@ input[type=button]:hover {
 
     .social-icons .social-icon {
         width: 15%;
-        height: 28%;
+        height: 20%;
     }
 }
 
@@ -348,18 +361,19 @@ input[type=button]:hover {
     }
 
     .banner2 h1 {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .banner2 p {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     /* Footer */
     .tyfooter {
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
 
     .tyflogo {
@@ -374,7 +388,7 @@ input[type=button]:hover {
     }
 
     .ftitle {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .whours h3 {
@@ -395,13 +409,16 @@ input[type=button]:hover {
     }
 
     .fcontent a {
+        font-size: 3.8vw;
+    }
+
+    .fc p {
         font-size: 4.5vw;
     }
 
     .social-icons {
         width: 80%;
         justify-content: center;
-        padding-left: 14%;
     }
 
     .social-icons .social-icon {

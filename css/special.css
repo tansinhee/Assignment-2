@@ -61,6 +61,7 @@ button {
     color: black;
 
 }
+
 /* Header */
 #bg1 {
     background-image: url("../images/Specialbg.png");
@@ -79,8 +80,8 @@ button {
 }
 
 /* SpecialTitle */
-.title{
-    text-align: center;  
+.title {
+    text-align: center;
 }
 
 .stxt {
@@ -292,6 +293,15 @@ button {
         font-size: 1.75vw;
     }
 
+    /* Banner */
+    .banner2 h1 {
+        font-size: 4.75vw;
+    }
+
+    .banner2 p {
+        font-size: 2vw;
+    }
+
     /* Footer */
     .tyfooter {
         flex-wrap: wrap;
@@ -331,6 +341,10 @@ button {
         font-size: 2.2vw;
     }
 
+    .fc p {
+        font-size: 2.2vw;
+    }
+
     .social-icons {
         width: 50%;
         padding-top: 3%;
@@ -338,7 +352,7 @@ button {
 
     .social-icons .social-icon {
         width: 15%;
-        height: 28%;
+        height: 20%;
     }
 }
 
@@ -367,18 +381,19 @@ button {
     }
 
     .banner2 h1 {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .banner2 p {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     /* Footer */
     .tyfooter {
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
 
     .tyflogo {
@@ -393,7 +408,7 @@ button {
     }
 
     .ftitle {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .whours h3 {
@@ -414,13 +429,16 @@ button {
     }
 
     .fcontent a {
+        font-size: 3.8vw;
+    }
+
+    .fc p {
         font-size: 4.5vw;
     }
 
     .social-icons {
         width: 80%;
         justify-content: center;
-        padding-left: 14%;
     }
 
     .social-icons .social-icon {
