@@ -449,6 +449,21 @@ input[type=button]:hover {
         font-size: 4vw;
     }
 
+    /* Header */
+    #bg1 {
+        background-size: cover;
+        height: 30vh;
+    }
+
+    #bgcon {
+        padding: 30% 16%;
+    }
+
+    #bgcon h1 {
+        font-size: 7vw;
+    }
+
+
     /* Reservation */
     .hreservecon {
         flex-direction: column;

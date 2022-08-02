@@ -18,19 +18,6 @@ button {
     text-align: center;
 }
 
-/* Buttons Section */
-button {
-    border: none;
-    color: white;
-    background-color: #C09863;
-    background-image: linear-gradient(to right, transparent 50%, white 50%);
-    background-size: 210%;
-    background-position: 0%;
-    transition: ease-out 0.5s;
-    align-items: center;
-    text-align: center;
-}
-
 /* Navigation Bar */
 #logo1 {
     width: 12%;
@@ -343,6 +330,10 @@ input {
         font-size: 1.75vw;
     }
 
+    /* Header */
+    #bgcon {
+        padding: 18% 0 12%;
+    }
 
     /* Contact */
     #contact {
@@ -383,6 +374,12 @@ input {
 
     .banner2 p {
         font-size: 2vw;
+    }
+
+    .specialbtn {
+        width: 16.8%;
+        font-size: 1.5vw;
+        padding: 1.45% 0 1% 0;
     }
 
     /* Footer */
@@ -459,15 +456,14 @@ input {
         font-size: 5vw;
     }
 
-     /* Header */
-     #bg1 {
+    /* Header */
+    #bg1 {
         background-size: cover;
         height: 30vh;
     }
 
     #bgcon {
-        padding: 25% 16%;
-        height: 30vh;
+        padding: 30% 16%;
     }
 
     #bgcon h1 {
@@ -515,6 +511,12 @@ input {
 
     .banner2 p {
         font-size: 4vw;
+    }
+
+    .specialbtn {
+        width: 32%;
+        font-size: 3vw;
+        padding: 3% 0 1.75% 0;
     }
 
     /* Footer */

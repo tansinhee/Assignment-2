@@ -375,6 +375,11 @@ hr.new1 {
         font-size: 1.75vw;
     }
 
+    /* Header */
+    #bgcon {
+        padding: 18% 0 12%;
+    }
+
     /* AboutUs */
     .content {
         flex-direction: column;
@@ -495,13 +500,13 @@ hr.new1 {
     }
 
     #bgcon {
-        padding: 25% 16%;
-        height: 30vh;
+        padding: 30% 16%;
     }
 
     #bgcon h1 {
         font-size: 7vw;
     }
+
 
     /* AboutUs */
     .content {
@@ -546,7 +551,7 @@ hr.new1 {
         font-size: 4vw;
     }
 
-    .vtitle{
+    .vtitle {
         font-size: 6vw;
     }
 
@@ -582,6 +587,12 @@ hr.new1 {
 
     .banner2 p {
         font-size: 5vw;
+    }
+
+    .specialbtn {
+        width: 32%;
+        font-size: 3vw;
+        padding: 3% 0 1.75% 0;
     }
 
     /* Footer */

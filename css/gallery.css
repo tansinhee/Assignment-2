@@ -279,6 +279,12 @@ button {
         font-size: 1.75vw;
     }
 
+    /* Header */
+    #bgcon {
+        padding: 18% 0 12%;
+    }
+
+    /* Gallery */
     .imgbox {
         flex: 1 0 33%;
     }
@@ -300,6 +306,12 @@ button {
 
     .banner2 p {
         font-size: 2vw;
+    }
+
+    .specialbtn {
+        width: 16.8%;
+        font-size: 1.5vw;
+        padding: 1.45% 0 1% 0;
     }
 
     /* Footer */
@@ -376,15 +388,14 @@ button {
         font-size: 5vw;
     }
 
-     /* Header */
-     #bg1 {
+    /* Header */
+    #bg1 {
         background-size: cover;
         height: 30vh;
     }
 
     #bgcon {
-        padding: 25% 16%;
-        height: 30vh;
+        padding: 30% 16%;
     }
 
     #bgcon h1 {
@@ -407,6 +418,12 @@ button {
 
     .banner2 p {
         font-size: 4vw;
+    }
+
+    .specialbtn {
+        width: 32%;
+        font-size: 3vw;
+        padding: 3% 0 1.75% 0;
     }
 
     /* Footer */
@@ -466,6 +483,6 @@ button {
         height: 55px;
         width: 55px;
         justify-content: center;
-        
+
     }
 }
