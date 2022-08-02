@@ -202,8 +202,8 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 22%;
-    height: 22%;
+    width: 2.5rem;
+    height: 2.5rem;
     background-color: #C09863;
     color: #fff;
     border-radius: 100%;
@@ -324,9 +324,10 @@
 
     /* Footer */
     .tyfooter {
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
 
     .tyflogo {
@@ -368,13 +369,12 @@
     .social-icons {
         width: 80%;
         justify-content: center;
-        padding-left: 14%;
     }
 
     .social-icons .social-icon {
         height: 55px;
         width: 55px;
         justify-content: center;
-
+        
     }
 }
