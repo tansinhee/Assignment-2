@@ -375,6 +375,21 @@ button {
         font-size: 5vw;
     }
 
+     /* Header */
+     #bg1 {
+        background-size: cover;
+        height: 30vh;
+    }
+
+    #bgcon {
+        padding: 25% 16%;
+        height: 30vh;
+    }
+
+    #bgcon h1 {
+        font-size: 7vw;
+    }
+
     /* Banner */
     .banner2 {
         text-align: center;
