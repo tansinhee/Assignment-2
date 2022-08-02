@@ -878,6 +878,7 @@ button.carousel-control-prev {
 }
 
 @media screen and (max-width:450px) {
+
     /* Navigation bar */
     #logo1 {
         width: 40%;
@@ -888,11 +889,11 @@ button.carousel-control-prev {
     }
 
     .navbar .navbar-nav .nav-link {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .dropdown .dropdown-item {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     /* Content */
@@ -912,11 +913,11 @@ button.carousel-control-prev {
     }
 
     .bgcon h2 {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .bgcon h1 {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .hbtn {
@@ -941,11 +942,11 @@ button.carousel-control-prev {
     }
 
     #abtcon h1 {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     #abtcon p {
-        font-size: 5vw;
+        font-size: 4vw;
         margin-bottom: 20%;
     }
 
@@ -958,11 +959,11 @@ button.carousel-control-prev {
 
     /* Special */
     .hspecial h1 {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .hspecial p {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .specialbtn {
@@ -985,7 +986,7 @@ button.carousel-control-prev {
     .ourmenu2 h1 {
         color: #C09863;
         font-weight: bold;
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .imgcontainer {
@@ -1004,7 +1005,7 @@ button.carousel-control-prev {
 
     .menutxt {
         color: white;
-        font-size: 5vw;
+        font-size: 4vw;
         font-weight: bold;
     }
 
@@ -1015,11 +1016,11 @@ button.carousel-control-prev {
     }
 
     .stxt h1 {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .stxt p {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .simgbox {
@@ -1032,7 +1033,7 @@ button.carousel-control-prev {
     }
 
     .simg h2 {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .sbtn {
@@ -1053,11 +1054,11 @@ button.carousel-control-prev {
     }
 
     .ctxt h1 {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .ctxt p {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .cimgbox {
@@ -1070,16 +1071,16 @@ button.carousel-control-prev {
     }
 
     .cimg h2 {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .cimg p {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     /* Gallery */
     .gtxt h1 {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .gimg {
@@ -1102,7 +1103,7 @@ button.carousel-control-prev {
     /* Blog */
     .ctxt h1 {
         margin-top: 4%;
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .bimgbox {
@@ -1121,7 +1122,7 @@ button.carousel-control-prev {
 
     .btxt h2 {
         font-weight: bold;
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .btxt p {
@@ -1129,15 +1130,16 @@ button.carousel-control-prev {
     }
 
     /* Banner */
-    .banner2{
+    .banner2 {
         text-align: center;
     }
+
     .banner2 h1 {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .banner2 p {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     /* Footer */
@@ -1160,7 +1162,7 @@ button.carousel-control-prev {
     }
 
     .ftitle {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .whours h3 {
@@ -1193,6 +1195,6 @@ button.carousel-control-prev {
         height: 55px;
         width: 55px;
         justify-content: center;
-        
+
     }
 }
