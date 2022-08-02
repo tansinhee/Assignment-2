@@ -5,6 +5,19 @@
     font-family: 'Epilogue', sans-serif;
 }
 
+/* Buttons Section */
+button {
+    border: none;
+    color: white;
+    background-color: #C09863;
+    background-image: linear-gradient(to right, transparent 50%, white 50%);
+    background-size: 210%;
+    background-position: 0%;
+    transition: ease-out 0.5s;
+    align-items: center;
+    text-align: center;
+}
+
 /* Navigation Bar */
 #logo1 {
     width: 12%;
@@ -393,6 +406,6 @@
         height: 55px;
         width: 55px;
         justify-content: center;
-        
+
     }
 }
