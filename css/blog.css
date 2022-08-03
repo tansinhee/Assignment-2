@@ -143,6 +143,145 @@ button {
     background-position: 100%;
 }
 
+/* Header */
+#bg1 {
+    background-image: url("../images/blogbg.png");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bgcon {
+    padding: 10.3% 16%;
+}
+
+#bgcon h1 {
+    font-size: 4.75vw;
+    font-weight: bold;
+}
+
+/* Blogs */
+.blogs {
+    margin: 5% 22% 1%;
+}
+
+.bbox1 {
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 6px 6px 20px #aaaaaa;
+    position: relative;
+}
+
+.bimg img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.btxt {
+    padding: 2.5% 2.5% 4%;
+}
+
+.btxt h4 {
+    font-size: 1vw;
+    color: #C09863;
+}
+
+.btxt h1 {
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+
+.btxt p {
+    font-size: 0.85vw;
+}
+
+.blogbtn {
+    width: 12%;
+    padding: 1.1% 0 0.75% 0;
+    border-radius: 10px;
+    font-size: 0.8vw;
+    font-weight: bold;
+    position: absolute;
+    right: 2.5%;
+    bottom: 3%;
+}
+
+.blogbtn:hover {
+    color: #C09863;
+    background-position: 100%;
+    border: #C09863 1px solid;
+}
+
+.imgcontainer {
+    display: flex;
+    justify-content: center;
+    margin: 3% 0;
+}
+
+.imgbox {
+    position: relative;
+    width: 25%;
+    margin: 0 2.5%;
+    border-radius: 10px;
+}
+.imgbox a{
+    transition: 0.3s;
+}
+.imgbox a:hover{
+    opacity: 0.85;
+    transform: scale(1.1);
+}
+.blogimg {
+    display: block;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.blogimg img {
+    width: 100%;
+    box-shadow: 10px 10px 15px #aaaaaa;
+    border-radius: 10px;
+}
+
+.txtbtm {
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0E1317;
+    border-radius: 10px;
+}
+
+.btxt2 {
+    padding: 2% 5%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.btxt2 h4 {
+    font-size: 1vw;
+    color: #C09863;
+}
+
+.btxt2 h1 {
+    font-weight: bold;
+    font-size: 1.7vw;
+    color: white;
+}
+
 /* Footer */
 .tyfooter {
     display: flex;
