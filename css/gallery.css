@@ -117,6 +117,12 @@ button {
     flex: 1 0 25%;
     min-height: 25vh;
     margin: 2.5%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.imgbox:hover {
+    transform: scale(1.1);
 }
 
 .imgbox img {
