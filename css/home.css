@@ -412,6 +412,7 @@ button.carousel-control-prev {
     justify-content: center;
     align-items: center;
     margin: 2.5% 5.6% 0.5%;
+    cursor: pointer;
 }
 
 .gimg img {
@@ -461,10 +462,12 @@ button.carousel-control-prev {
     background-color: white;
     border-radius: 15px;
     box-shadow: 6px 6px 20px #aaaaaa;
+    transition: 0.5s;
 }
 
 .bbox1:hover {
     opacity: 0.85;
+    transform: scale(1.05);
 }
 
 .bimg img {
@@ -597,15 +600,12 @@ button.carousel-control-prev {
     margin-top: 1%;
     margin-right: 0.5rem;
     text-decoration: none;
+    transition: 0.3s;
+    
 }
 
-.social-icons .social-icon a {
-    color: #bd5d38;
-    text-decoration: underline;
-}
-
-.social-icons .social-icon a:hover {
-    opacity: 0.8;
+.social-icons .social-icon:hover {
+    transform: scale(1.2);
 }
 
 @media screen and (min-width:450px) and (max-width:834px) {

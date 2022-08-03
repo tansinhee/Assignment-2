@@ -231,6 +231,12 @@ button {
     color: #ffffff;
 }
 
+.fc p {
+    color: #C09863;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
 .social-icons {
     width: 15%;
 
@@ -248,15 +254,12 @@ button {
     margin-top: 1%;
     margin-right: 0.5rem;
     text-decoration: none;
+    transition: 0.3s;
+
 }
 
-.social-icons .social-icon a {
-    color: #bd5d38;
-    text-decoration: underline;
-}
-
-.social-icons .social-icon a:hover {
-    opacity: 0.8;
+.social-icons .social-icon:hover {
+    transform: scale(1.2);
 }
 
 /* Tablet */
