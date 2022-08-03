@@ -64,7 +64,7 @@ button {
 
 /* Header */
 #bg1 {
-    background-image: url("../images/foodbg.png");
+    background-image: url("../images/dessertbg.png");
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -158,6 +158,10 @@ button {
 }
 
 /* Maindishes */
+#padding{
+    padding-bottom: 8%;
+}
+
 .bmain {
     margin: auto;
     max-width: 70%;
