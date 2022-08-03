@@ -386,6 +386,10 @@ input[type=submit]:hover {
         padding-left: 0;
     }
 
+    input[type=submit] {
+        font-size: 1.5vw;
+    }
+
     /* Banner */
     .banner2 h1 {
         font-size: 4.75vw;
@@ -517,6 +521,12 @@ input[type=submit]:hover {
 
     form {
         padding-left: 0;
+    }
+
+    input[type=submit] {
+        width: 33%;
+        font-size: 3vw;
+        padding: 3.2% 2% 2%;
     }
 
     /* Banner */
