@@ -103,7 +103,7 @@ button {
 }
 
 /* logo */
-.flogo{
+.flogo {
     text-align: center;
     align-items: center;
     margin: auto;
@@ -112,7 +112,7 @@ button {
     margin-top: 0;
 }
 
-.flogo img{
+.flogo img {
     width: 100%;
 }
 
@@ -153,8 +153,74 @@ button {
 }
 
 /* BannerMid */
-.banner img{
+.banner img {
     width: 100%;
+}
+
+/* Maindishes */
+.bmain {
+    margin: auto;
+    max-width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.middlebox{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.menumeal{
+    margin-bottom: 10%;
+}
+
+.menumeal img{
+    width: 100%;
+}
+
+.mealbox{
+    background-color: #ffffff;
+    box-shadow: 6px 6px 20px #aaaaaa;
+    margin-bottom: 10%;
+}
+
+.meal{
+    display:flex;
+    padding: 4% 2% 0% 2%;
+}
+
+.logo{
+    width: 17px;
+    height: 19px;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.mealname{
+    width: 60%;
+}
+
+.name{
+    display: flex;
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.describe{
+    font-size: 0.8vw;
+    justify-content: center;
+}
+
+.price{
+    font-size: 1vw;
+    font-weight: bold;
+    color: #C09863;
+    padding-left: 23%;
+    width: 40%;
 }
 
 /* Banner */
