@@ -66,7 +66,7 @@ button {
 #bg1 {
     background-image: url("../images/abtbg.png");
     color: white;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -377,7 +377,7 @@ hr.new1 {
 
     /* Header */
     #bgcon {
-        padding: 18% 0 12%;
+        padding: 18% 10% 12%;
     }
 
     /* AboutUs */

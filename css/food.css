@@ -66,7 +66,7 @@ button {
 #bg1 {
     background-image: url("../images/foodbg.png");
     color: white;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 

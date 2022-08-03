@@ -67,7 +67,7 @@ button {
 #bg1 {
     background-image: url("../images/Gallerybg.png");
     color: white;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -281,7 +281,7 @@ button {
 
     /* Header */
     #bgcon {
-        padding: 18% 0 12%;
+        padding: 18% 10% 12%;
     }
 
     /* Gallery */
