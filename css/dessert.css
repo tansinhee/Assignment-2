@@ -248,6 +248,20 @@ button {
     font-weight: bold;
 }
 
+.specialbtn {
+    width: 10%;
+    padding: 0.9% 0 0.75% 0;
+    margin-top: 2%;
+    border-radius: 10px;
+    font-size: 0.8vw;
+    font-weight: bold;
+}
+
+.specialbtn:hover {
+    color: #C09863;
+    background-position: 100%;
+}
+
 /* Footer */
 .tyfooter {
     display: flex;
@@ -427,6 +441,12 @@ button {
         font-size: 2vw;
     }
 
+    .specialbtn {
+        width: 16.8%;
+        font-size: 1.5vw;
+        padding: 1.45% 0 1% 0;
+    }
+
     /* Footer */
     .tyfooter {
         flex-wrap: wrap;
@@ -582,11 +602,11 @@ button {
     }
 
     .banner2 h1 {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .banner2 p {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .specialbtn {
@@ -594,7 +614,7 @@ button {
         font-size: 3vw;
         padding: 3% 0 1.75% 0;
     }
-
+    
     /* Footer */
     .tyfooter {
         flex-direction: column;
