@@ -64,7 +64,7 @@ button {
 
 /* Header */
 #bg1 {
-    background-image: url("../images/foodbg.png");
+    background-image: url("../images/beveragebg.png");
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -598,11 +598,11 @@ button {
     }
 
     .banner2 h1 {
-        font-size: 6vw;
+        font-size: 7vw;
     }
 
     .banner2 p {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .specialbtn {
