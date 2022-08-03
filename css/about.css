@@ -327,6 +327,12 @@ hr.new1 {
     color: #ffffff;
 }
 
+.fc p {
+    color: #C09863;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
 .social-icons {
     width: 15%;
 
@@ -391,6 +397,11 @@ hr.new1 {
         margin-right: 0%;
     }
 
+    #abtcon p {
+        font-weight: unset;
+        font-size: 2.5vw;
+    }
+
     #abtimg {
         margin: auto;
     }
@@ -408,15 +419,35 @@ hr.new1 {
         width: 45%;
     }
 
+    .mimg h2 {
+        font-size: 2vw;
+    }
+
+    .mimg p {
+        font-size: 1.75vw;
+    }
+
     /* Our Chef */
     .ourchef {
         padding: 0 10%;
+    }
+
+    .ctxt p {
+        font-size: 2vw;
     }
 
     .cimg {
         flex: 1 0 30%;
     }
 
+    .cimg h2 {
+        font-size: 2vw;
+    }
+
+    .cimg p {
+        font-size: 1.75vw;
+    }
+    
     /* Banner */
     .specialbtn {
         width: 16.8%;
@@ -424,6 +455,7 @@ hr.new1 {
         padding: 1.45% 0 1% 0;
     }
 
+    /* Footer */
     .tyfooter {
         flex-wrap: wrap;
     }
@@ -462,6 +494,10 @@ hr.new1 {
         font-size: 2.2vw;
     }
 
+    .fc p {
+        font-size: 2.2vw;
+    }
+
     .social-icons {
         width: 50%;
         padding-top: 3%;
@@ -469,7 +505,7 @@ hr.new1 {
 
     .social-icons .social-icon {
         width: 15%;
-        height: 28%;
+        height: 20%;
     }
 }
 
@@ -615,7 +651,7 @@ hr.new1 {
     }
 
     .ftitle {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .whours h3 {
@@ -636,6 +672,10 @@ hr.new1 {
     }
 
     .fcontent a {
+        font-size: 3.8vw;
+    }
+
+    .fc p {
         font-size: 4.5vw;
     }
 
