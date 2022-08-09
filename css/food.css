@@ -93,13 +93,14 @@ button {
 .ftxt h1 {
     color: #C09863;
     font-weight: bold;
+    font-size: 3vw;
     margin-bottom: 1.5%;
 }
 
 .ftxt p {
     color: black;
     font-weight: 550;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 /* logo */
@@ -144,12 +145,12 @@ button {
 .btxt h2 {
     color: #C09863;
     font-weight: bold;
-    font-size: 1.1vw;
+    font-size: 1.25vw;
     margin-top: 2%;
 }
 
 .btxt p {
-    font-size: 0.85vw;
+    font-size: 1vw;
 }
 
 /* BannerMid */
@@ -215,13 +216,13 @@ button {
 
 .name {
     display: flex;
-    font-size: 1.2vw;
+    font-size: 1.25vw;
     font-weight: bold;
     margin-bottom: 0;
 }
 
 .describe {
-    font-size: 0.8vw;
+    font-size: 1vw;
     justify-content: center;
 }
 
@@ -267,7 +268,7 @@ button {
     padding: 0.9% 0 0.75% 0;
     margin-top: 2%;
     border-radius: 10px;
-    font-size: 0.8vw;
+    font-size: 1vw;
     font-weight: bold;
 }
 
