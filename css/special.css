@@ -41,7 +41,7 @@ button {
 }
 
 .navbar .navbar-nav .nav-link {
-    font-size: 1vw;
+    font-size: 1.15vw;
     font-weight: bold;
     transition: ease-out 0.2s;
 }
@@ -94,12 +94,7 @@ button {
     color: #C09863;
     font-weight: bold;
     margin-bottom: 1.5%;
-}
-
-.stxt p {
-    color: black;
-    font-weight: 550;
-    font-size: 1vw;
+    font-size: 3vw;
 }
 
 /* Special */
@@ -145,7 +140,7 @@ button {
 
 .cparagraph {
     color: #000000;
-    font-size: 1.3vw;
+    font-size: 1.25vw;
     line-height: 1.5;
     margin: 0 3%;
     text-align: justify;
@@ -176,7 +171,7 @@ button {
     padding: 0.9% 0 0.75% 0;
     margin-top: 2%;
     border-radius: 10px;
-    font-size: 0.8vw;
+    font-size: 1vw;
     font-weight: bold;
 }
 
