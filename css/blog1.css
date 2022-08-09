@@ -64,7 +64,7 @@ button {
 
 /* Header */
 #bg1 {
-    background-image: url("../images/abtbg.jpg");
+    background-image: url("../images/blogbg.png");
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -79,159 +79,193 @@ button {
     font-weight: bold;
 }
 
-/* AboutUs */
-.content {
-    display: flex;
-    margin: 5% 12%;
+/* Blogs */
+.blogs {
+    margin: 5% 22% 1%;
 }
 
-#abtcon {
-    margin-top: 2.5%;
-    text-align: justify;
+.bbox1 {
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 6px 6px 20px #aaaaaa;
     position: relative;
-    max-width: 50%;
-    margin-right: 8%;
 }
 
-#abtcon h1 {
-    color: #C09863;
-    font-weight: bold;
-    margin-bottom: 5%;
-    font-size: 3vw;
-}
-
-#abtcon p {
-    color: #000;
-    font-size: 1.25vw;
-    margin-bottom: 4.5%;
-}
-
-#abtimg {
-    width: 50%;
-    margin-top: 2.5%;
-}
-
-#abtimg img {
+.bimg img {
     width: 100%;
+    border-radius: 15px 15px 0 0;
 }
 
-/* Our Mission */
-.mission {
-    background-color: #0E1317;
-    padding: 0 7.5%;
+.btxt {
+    padding: 2.5% 2.5% 4%;
 }
 
-.mtxt {
-    margin: 0 10%;
-    padding-top: 5%;
-    text-align: center;
-}
-
-.mtxt h1 {
+.btxt h4 {
+    font-size: 1vw;
     color: #C09863;
-    font-weight: bold;
-    margin-bottom: 1.5%;
-    font-size: 3vw;
 }
 
-.mimgbox {
+.btxt h1 {
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+
+.btxt p {
+    font-size: 0.85vw;
+}
+
+.blogbtn {
+    width: 12%;
+    padding: 1.1% 0 0.75% 0;
+    border-radius: 10px;
+    font-size: 0.8vw;
+    font-weight: bold;
+    position: absolute;
+    right: 2.5%;
+    bottom: 3%;
+}
+
+.blogbtn:hover {
+    color: #C09863;
+    background-position: 100%;
+    border: #C09863 1px solid;
+}
+
+.imgcontainer {
     display: flex;
     justify-content: center;
+    margin: 3% 0;
 }
 
-.mimg {
+.imgbox {
+    position: relative;
     width: 25%;
-    margin: 2.5%;
+    margin: 0 2.5%;
+    border-radius: 10px;
 }
 
-.mimg img {
+.imgbox a {
+    transition: 0.3s;
+}
+
+.imgbox a:hover {
+    opacity: 0.85;
+    transform: scale(1.1);
+}
+
+.blogimg {
+    display: block;
     width: 100%;
-    border-radius: 15px;
+    backface-visibility: hidden;
+    border-radius: 10px;
 }
 
-.mimg h2 {
-    color: #C09863;
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.5vw;
+.blogimg img {
+    width: 100%;
+    box-shadow: 10px 10px 15px #aaaaaa;
+    border-radius: 10px;
 }
 
-.mimg p {
-    color: white;
-    text-align: center;
-    font-size: 1.25vw;
+.txtbtm {
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0E1317;
+    border-radius: 10px;
 }
 
-hr.new1 {
-    border-top: 1px solid white;
-    max-width: 90%;
-    margin: auto;
-}
-
-.vtitle {
-    color: white;
-    font-weight: bold;
-    margin-bottom: 1.5%;
-    text-align: center;
-    padding: 5% 0% 10%;
-}
-
-/* Our Chef */
-.ourchef {
-    padding: 0 7.5%;
-}
-
-.ctxt {
-    margin: 0 10%;
-    padding-top: 4%;
-    text-align: center;
-}
-
-.ctxt h1 {
-    color: #C09863;
-    font-weight: bold;
-    margin-bottom: 1.5%;
-    font-size: 3vw;
-}
-
-.ctxt p {
-    color: black;
-    font-weight: 550;
-    font-size: 1.5vw;
-}
-
-.cimgbox {
+.btxt2 {
+    padding: 2% 5%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    align-items: flex-end;
 }
 
-.cimg {
-    flex: 1 0 25%;
-    min-height: 25vh;
-    margin: 2.5%;
+.btxt2 h4 {
+    font-size: 1vw;
+    color: #C09863;
 }
 
-.cimg img {
-    width: 100%;
-    border-radius: 15px;
-    box-shadow: 6px 6px 10px #aaaaaa;
+.btxt2 h1 {
+    font-weight: bold;
+    font-size: 1.7vw;
+    color: white;
 }
 
-.cimg h2 {
-    color: black;
+/* Blog1 */
+.blog1 {
+    display: flex;
+    margin: 5% 10%;
+}
+
+.bnapkin {
+    width: 70%;
+    margin: 0 6%;
+}
+
+.bnapkin h1 {
+    font-size: 3vw;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 5%;
+}
+
+.bnapkin1 img {
+    width: 100%;
+    border-radius: 10px;
+}
+.bnapkin1 h2{
+    margin: 3% 0 1%;
+    font-weight: bold;
     font-size: 1.5vw;
 }
-
-.cimg p {
-    font-weight: bold;
-    opacity: 70%;
-    text-align: center;
+.bnapkin1 p{
+    margin-bottom: 5%;
     font-size: 1.25vw;
+    text-align: justify;
+    
+}
+.blogmenu {
+    width: 30%;
 }
 
+.menuborder {
+    margin: 28% 6%;
+    border: 2px solid #C09863;
+    border-radius: 15px;
+    padding: 10%;
+}
+
+.menuborder h1 {
+    color: #C09863;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.menuborder a {
+    flex-direction: column;
+    display: block;
+    font-size: 1.25vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.menuborder a:hover{
+    opacity: 0.6;
+    color: black;
+}
 /* Banner */
 .banner2 {
     background-image: url("../images/hspecialbg.png");
@@ -352,16 +386,18 @@ hr.new1 {
     margin-top: 1%;
     margin-right: 0.5rem;
     text-decoration: none;
-    transition: 0.3s;
-
 }
 
-.social-icons .social-icon:hover {
-    transform: scale(1.2);
+.social-icons .social-icon a {
+    color: #bd5d38;
+    text-decoration: underline;
 }
 
-/* Tablet */
-@media screen and (max-width: 834px) and (min-width: 450px) {
+.social-icons .social-icon a:hover {
+    opacity: 0.8;
+}
+
+@media screen and (min-width:450px) and (max-width:834px) {
 
     /* Navigation Bar */
     #logo1 {
@@ -385,69 +421,15 @@ hr.new1 {
         padding: 18% 10% 12%;
     }
 
-    /* AboutUs */
-    .content {
-        flex-direction: column;
-        margin: 5% 10%;
-    }
-
-    #abtcon {
-        max-width: 100%;
-        margin-right: 0%;
-    }
-
-    #abtcon p {
-        font-weight: unset;
-        font-size: 2.5vw;
-    }
-
-    #abtimg {
-        margin: auto;
-    }
-
-    /* Our Mission */
-    .mission {
-        padding: 0 10%;
-    }
-
-    .mimgbox {
-        flex-wrap: wrap;
-    }
-
-    .mimg {
-        width: 45%;
-    }
-
-    .mimg h2 {
-        font-size: 2vw;
-    }
-
-    .mimg p {
-        font-size: 1.75vw;
-    }
-
-    /* Our Chef */
-    .ourchef {
-        padding: 0 10%;
-    }
-
-    .ctxt p {
-        font-size: 2vw;
-    }
-
-    .cimg {
-        flex: 1 0 30%;
-    }
-
-    .cimg h2 {
-        font-size: 2vw;
-    }
-
-    .cimg p {
-        font-size: 1.75vw;
-    }
-
     /* Banner */
+    .banner2 h1 {
+        font-size: 4.75vw;
+    }
+
+    .banner2 p {
+        font-size: 2vw;
+    }
+
     .specialbtn {
         width: 16.8%;
         font-size: 1.5vw;
@@ -508,8 +490,7 @@ hr.new1 {
     }
 }
 
-/* Mobile */
-@media screen and (max-width: 450px) {
+@media screen and (max-width:450px) {
 
     /* Navigation bar */
     #logo1 {
@@ -542,86 +523,17 @@ hr.new1 {
         font-size: 7vw;
     }
 
-
-    /* AboutUs */
-    .content {
-        flex-direction: column;
-        margin: 5% 10%;
-    }
-
-    #abtcon {
-        max-width: 100%;
-        margin-right: 0%;
-    }
-
-    #abtcon p {
-        font-weight: unset;
-        font-size: 4vw;
-        margin-bottom: 20%;
-    }
-
-    #abtimg {
-        margin: auto;
-    }
-
-
-    /* Our Mission */
-    .mission {
-        padding: 0 10%;
-    }
-
-    .mimgbox {
-        flex-wrap: wrap;
-    }
-
-    .mimg {
-        width: 100%;
-    }
-
-    .mimg h2 {
-        font-size: 5vw;
-    }
-
-    .mimg p {
-        font-size: 4vw;
-    }
-
-    .vtitle {
-        font-size: 6vw;
-    }
-
-    /* Our Chef */
-    .ctxt p {
-        font-size: 4vw;
-    }
-
-    .ourchef {
-        padding: 0 10%;
-    }
-
-    .cimg {
-        flex: 1 0 50%;
-    }
-
-    .cimg h2 {
-        font-size: 4.5vw;
-    }
-
-    .cimg p {
-        font-size: 4vw;
-    }
-
     /* Banner */
     .banner2 {
         text-align: center;
     }
 
     .banner2 h1 {
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     .banner2 p {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .specialbtn {
