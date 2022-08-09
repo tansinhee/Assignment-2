@@ -204,6 +204,15 @@ button {
     width: 60%;
 }
 
+.mealname a {
+    color: black;
+    text-decoration: none;
+}
+
+.mealname a:hover {
+    color: #C09863;
+}
+
 .name {
     display: flex;
     font-size: 1.2vw;
@@ -222,6 +231,15 @@ button {
     color: #C09863;
     padding-left: 23%;
     width: 40%;
+}
+
+/* Model */
+.modal {
+    text-align: center;
+}
+
+.mimg {
+    width: 100%;
 }
 
 /* Banner */
@@ -558,8 +576,8 @@ button {
         font-size: 4vw;
     }
 
-     /* Maindishes */
-     .bmain {
+    /* Maindishes */
+    .bmain {
         flex-direction: column;
     }
 
