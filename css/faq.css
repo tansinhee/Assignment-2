@@ -41,7 +41,7 @@ button {
 }
 
 .navbar .navbar-nav .nav-link {
-    font-size: 1vw;
+    font-size: 1.15vw;
     font-weight: bold;
     transition: ease-out 0.2s;
 }
@@ -95,12 +95,13 @@ button {
     color: #C09863;
     font-weight: bold;
     margin-bottom: 1.5%;
+    font-size: 3vw;
 }
 
 .ftxt p {
     color: black;
     font-weight: 550;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 /* FAQ */
@@ -134,7 +135,7 @@ button {
     padding: 0.9% 0 0.75% 0;
     margin-top: 2%;
     border-radius: 10px;
-    font-size: 0.8vw;
+    font-size: 1vw;
     font-weight: bold;
 }
 

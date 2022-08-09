@@ -149,14 +149,13 @@ button.carousel-control-prev {
 #abtcon p {
     font-size: 1.25vw;
     margin-bottom: 4.5%;
-    /* font-weight: bold; */
 }
 
 .rbtn1 {
     position: absolute;
     bottom: 5%;
     right: 0%;
-    width: 18%;
+    width: 22%;
     padding: 1.6% 0 1.1% 0;
     border-radius: 10px;
     font-size: 1vw;
