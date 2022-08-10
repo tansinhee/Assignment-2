@@ -63,7 +63,7 @@ button {
 
 /* Contents */
 .bg1 {
-    background-image: url("../images/bg1.png");
+    background-image: url("../images/bg1.jpg");
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,7 +71,7 @@ button {
 }
 
 .bg2 {
-    background-image: url("../images/bg2.png");
+    background-image: url("../images/bg2.jpg");
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@ button {
 }
 
 .bg3 {
-    background-image: url("../images/bg3.png");
+    background-image: url("../images/bg3.jpg");
     color: white;
     background-size: cover;
     background-repeat: no-repeat;

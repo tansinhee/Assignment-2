@@ -63,7 +63,7 @@ button {
 
 /* Header */
 #bg1 {
-    background-image: url("../images/reservebg.png");
+    background-image: url("../images/reservebg.jpg");
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -81,7 +81,7 @@ button {
 
 /* Reservation */
 .hreserve {
-    background-image: url("../images/BG\ 2.png");
+    background-image: url("../images/BG\ 2.jpg");
     padding: 5% 7.5%;
 
 }
