@@ -307,6 +307,53 @@ button {
         padding: 18% 10% 12%;
     }
 
+    /* Blog1 */
+    .blog1 {
+        flex-direction: column-reverse;
+        margin: 5%;
+    }
+
+    .bnapkin {
+        width: 100%;
+        margin: 0;
+    }
+
+    .bnapkin h1 {
+        font-size: 3.5vw;
+    }
+
+    .bnapkin1 h2 {
+        font-size: 3vw;
+    }
+
+    .bnapkin1 h3 {
+        font-size: 2.5vw;
+    }
+
+    .blogmenu {
+        width: 100%;
+    }
+
+    .bnapkin1 p {
+        font-size: 2.5vw;
+
+    }
+
+    .menuborder {
+        margin: 0 0 2.5% 0;
+        border: 2px solid #C09863;
+        border-radius: 15px;
+        padding: 3%;
+    }
+
+    .menuborder h1 {
+        font-size: 3.5vw;
+    }
+
+    .menuborder a {
+        font-size: 2.5vw;
+    }
+
     /* Banner */
     .banner2 h1 {
         font-size: 4.75vw;
@@ -407,6 +454,53 @@ button {
 
     #bgcon h1 {
         font-size: 7vw;
+    }
+
+    /* Blog1 */
+    .blog1 {
+        flex-direction: column-reverse;
+        margin: 5%;
+    }
+
+    .bnapkin {
+        width: 100%;
+        margin: 0;
+    }
+
+    .bnapkin h1 {
+        font-size: 6vw;
+    }
+
+    .bnapkin1 h2 {
+        font-size: 4.5vw;
+        margin: 3% 0;
+    }
+
+    .blogmenu {
+        width: 100%;
+    }
+
+    .bnapkin1 h3 {
+        font-size: 4vw;
+
+    }
+    .bnapkin1 p {
+        font-size: 4vw;
+
+    }
+
+    .menuborder {
+        margin: 0 0 5% 0;
+        border-radius: 8px;
+        padding: 3%;
+    }
+
+    .menuborder h1 {
+        font-size: 6vw;
+    }
+
+    .menuborder a {
+        font-size: 5vw;
     }
 
     /* Banner */

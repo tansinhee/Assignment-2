@@ -359,31 +359,45 @@ button {
         padding: 18% 10% 12%;
     }
 
+    /* Blogs */
+    .blogs {
+        margin: 5% 10% 1%;
+    }
+
     .btxt h4 {
-        font-size: 1.25vw;
+        font-size: 1.75vw;
     }
 
     .btxt h1 {
-        font-size: 2vw;
+        font-size: 3.5vw;
     }
 
     .btxt p {
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
 
     .blogbtn {
-        width: 24%;
+        width: 18%;
         padding: 1.3% 0 0.9% 0;
         border-radius: 5px;
         font-size: 1.5vw;
     }
 
+    .blog2 {
+        margin: 3% 8%;
+    }
+
     .btxt2 h4 {
-        font-size: 1.25vw;
+        font-size: 1.75vw;
     }
 
     .btxt2 h1 {
-        font-size: 2vw;
+        font-size: 3.5vw;
+    }
+
+    .imgbox {
+        width: 50%;
+        margin: 0 2.5%;
     }
 
     /* Banner */
@@ -486,6 +500,56 @@ button {
 
     #bgcon h1 {
         font-size: 7vw;
+    }
+
+    /* Blogs */
+    .blogs {
+        margin: 5% 8% 1%;
+    }
+
+    .bbox1 {
+        border-radius: 8px;
+    }
+
+    .bimg img {
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .btxt h4 {
+        font-size: 2.5vw;
+    }
+
+    .btxt h1 {
+        font-size: 4vw;
+    }
+
+    .btxt p {
+        font-size: 3vw;
+    }
+
+    .blogbtn {
+        width: 25%;
+        padding: 1.3% 0 0.9% 0;
+        border-radius: 5px;
+        font-size: 2.5vw;
+    }
+
+    .blog2 {
+        margin: 3% 6%;
+    }
+
+    .btxt2 h4 {
+        font-size: 2.5vw;
+    }
+
+    .btxt2 h1 {
+        font-size: 4vw;
+    }
+
+    .imgbox {
+        width: 50%;
+        margin: 2.5%;
     }
 
     /* Banner */
