@@ -488,6 +488,11 @@ button {
         font-size: 7vw;
     }
 
+    /* Blogs */
+    .blogs {
+        margin: 5% 8% 1%;
+    }
+
     /* Banner */
     .banner2 {
         text-align: center;
