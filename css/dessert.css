@@ -146,7 +146,7 @@ button {
     color: #C09863;
     font-weight: bold;
     font-size: 1.25vw;
-    margin-top: 2%;
+    margin-top: 4%;
 }
 
 .btxt p {
@@ -195,7 +195,7 @@ button {
 
 .meal {
     display: flex;
-    padding: 4% 2% 0% 2%;
+    padding: 4% 3% 0% 4.5%;
 }
 
 .logo {
@@ -239,12 +239,22 @@ button {
 }
 
 /* Model */
+.modalcenter{
+    top:50% !important;
+    transform: translateY(-50%) !important;
+}
+.modal-header {
+    background-color: #0E1317;
+}
+
 .modal {
     text-align: center;
 }
 
 .mimg {
     width: 100%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 /* Banner */
@@ -613,6 +623,7 @@ button {
 
     .price {
         font-size: 3vw;
+        padding-left: 19%;
     }
 
     /* Banner */
