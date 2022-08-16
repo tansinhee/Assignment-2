@@ -547,11 +547,16 @@ hr.new1 {
     .content {
         flex-direction: column;
         margin: 5% 10%;
+        margin-bottom: 10%;
     }
 
     #abtcon {
         max-width: 100%;
         margin-right: 0%;
+    }
+
+    #abtcon h1{
+        font-size: 6vw;
     }
 
     #abtcon p {
@@ -568,6 +573,10 @@ hr.new1 {
     /* Our Mission */
     .mission {
         padding: 0 10%;
+    }
+
+    .mtxt h1{
+        font-size: 6vw;
     }
 
     .mimgbox {
@@ -591,6 +600,10 @@ hr.new1 {
     }
 
     /* Our Chef */
+    .ctxt h1{
+        font-size: 6vw;
+    }
+
     .ctxt p {
         font-size: 4vw;
     }

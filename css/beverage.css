@@ -561,6 +561,9 @@ button {
     }
 
     /* FoodTitle */
+    .ftxt h1{
+        font-size: 6vw;
+    }
     .ftxt p {
         font-size: 4vw;
     }
